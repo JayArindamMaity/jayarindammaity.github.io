@@ -9,14 +9,14 @@ export default function Navbar() {
           <div className="nav-items">
             <ul>
               <li>
-                <a href="">
+                <a href="/">
                   <span className="tooltip" data-tooltip="Home">
                     <House />
                   </span>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="portfolio/projects">
                   <span className="tooltip" data-tooltip="Projects">
                     <AppWindow />
                   </span>
