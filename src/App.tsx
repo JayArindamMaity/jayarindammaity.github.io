@@ -12,9 +12,9 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/portfolio" element={<Home />} />
-          <Route path="/portfolio/projects" element={<Projects />} />
-          <Route path='/portfolio/achievements' element={<Achievements />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path='/achievements' element={<Achievements />} />
         </Routes>
       </div>
     </Router>
