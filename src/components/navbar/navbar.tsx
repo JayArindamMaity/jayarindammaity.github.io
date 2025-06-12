@@ -16,14 +16,14 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="/portfolio/projects">
+                <a href="/projects">
                   <span className="tooltip" data-tooltip="Projects">
                     <AppWindow />
                   </span>
                 </a>
               </li>
               <li>
-                <a href="/portfolio/achievements">
+                <a href="/achievements">
                   <span className="tooltip" data-tooltip="Achievements">
                     <Award />
                   </span>
