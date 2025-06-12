@@ -1,59 +1,58 @@
 import "./navbar.css";
 import { House, Award, AppWindow, BookA, Gamepad2, Pizza } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <>
-      <div className="nav-container">
-        <div className="nav-main">
-          <div className="nav-items">
-            <ul>
-              <li>
-                <a href="/">
-                  <span className="tooltip" data-tooltip="Home">
-                    <House />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="/projects">
-                  <span className="tooltip" data-tooltip="Projects">
-                    <AppWindow />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="/achievements">
-                  <span className="tooltip" data-tooltip="Achievements">
-                    <Award />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <span className="tooltip" data-tooltip="Books">
-                    <BookA />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <span className="tooltip" data-tooltip="Games">
-                    <Gamepad2 />
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <span className="tooltip" data-tooltip="Pizza Time">
-                    <Pizza />
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
+    <div className="nav-container">
+      <div className="nav-main">
+        <div className="nav-items">
+          <ul>
+            <li>
+              <Link to="/">
+                <span className="tooltip" data-tooltip="Home">
+                  <House />
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects">
+                <span className="tooltip" data-tooltip="Projects">
+                  <AppWindow />
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/achievements">
+                <span className="tooltip" data-tooltip="Achievements">
+                  <Award />
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/books">
+                <span className="tooltip" data-tooltip="Books">
+                  <BookA />
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/games">
+                <span className="tooltip" data-tooltip="Games">
+                  <Gamepad2 />
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link to="/pizza">
+                <span className="tooltip" data-tooltip="Pizza Time">
+                  <Pizza />
+                </span>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }

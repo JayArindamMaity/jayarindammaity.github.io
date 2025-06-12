@@ -27,6 +27,12 @@ export default function Home() {
             </li>
           </ul>
         </div>
+
+        <div className="education">
+            <div className="education-heading">
+                My Education
+            </div>
+        </div>
       </div>
     </>
   );

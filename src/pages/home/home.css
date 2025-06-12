@@ -10,5 +10,13 @@
 .heading-content {
     margin-top: 20px;
     font-size: larger;
+}
 
+.education-heading {
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.education-content {
+    font-size: larger;
 }

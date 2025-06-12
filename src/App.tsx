@@ -3,7 +3,7 @@ import Navbar from './components/navbar/navbar'
 import Achievements from './pages/achievements/achievements'
 import Home from './pages/home/home'
 import Projects from './pages/projects/projects'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
