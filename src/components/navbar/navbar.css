@@ -1,14 +1,20 @@
-/* Container that wraps the navbar */
 .nav-main {
   display: flex;
-  justify-content: center;  /* Centers the nav-items horizontally */
+  justify-content: center;
   align-items: center;
-  padding: 1rem 0;
+  padding: 3rem 5rem;
   width: 100%;
   position: fixed;
+  top: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 1000;
 }
 
-/* The actual list */
 .nav-items ul {
   display: flex;
   gap: 2rem;
@@ -17,7 +23,6 @@
   padding: 0;
 }
 
-/* List items and links */
 .nav-items li a {
   color: antiquewhite;
   text-decoration: none;
@@ -30,7 +35,7 @@
 
 /* Hover effect */
 .nav-items li a:hover {
-  color: rgb(241, 198, 142);
+  color: rgb(252, 202, 138);
 }
 
 .nav-container {
@@ -40,7 +45,7 @@
 }
 
 .nav-main {
-  max-width: 800px; /* or any width you want */
+  max-width: 800px;
   width: 100%;
 }
 
@@ -55,13 +60,13 @@
 .tooltip::after {
   content: attr(data-tooltip);
   position: absolute;
-  top: 130%; /* Position below the icon */
+  top: 130%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #333;
-  color: antiquewhite;
+  background-color: #000000;
+  color: rgb(252, 202, 138);
   padding: 4px 8px;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   white-space: nowrap;
   border-radius: 4px;
   opacity: 0;

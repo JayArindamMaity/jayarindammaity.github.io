@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <div className="home-main">
-        <div className="home-heading">Hello!</div>
+        <div className="home-heading"><h2>Hello!</h2></div>
         <div className="heading-content">
           I'm a curious mind who loves building things — whether it's with code,
           circuits, or even a simple recipe in the kitchen.
@@ -29,9 +29,30 @@ export default function Home() {
         </div>
 
         <div className="education">
-            <div className="education-heading">
-                My Education
+          <h2 className="education-heading">My Education</h2>
+          <div className="education-entry">
+            <div className="edu-level">Middle School</div>
+            <div className="edu-details">
+              <div>St. Mary's School, Chandigarh</div>
+              <div className="edu-score">87%</div>
             </div>
+          </div>
+          <div className="education-entry">
+            <div className="edu-level">High School</div>
+            <div className="edu-details">
+              <div>Govt. Model Sr. Sec. School, Chandigarh</div>
+              <div className="edu-score">85%</div>
+            </div>
+          </div>
+          <div className="education-entry">
+            <div className="edu-level">College</div>
+            <div className="edu-details">
+              <div>
+                Chitkara University — B.E. Computer Science & Engineering
+              </div>
+              <div className="edu-score">7.5 CGPA</div>
+            </div>
+          </div>
         </div>
       </div>
     </>
