@@ -44,8 +44,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/pizza">
-                <span className="tooltip" data-tooltip="Pizza Time">
+              <Link to="/food">
+                <span className="tooltip" data-tooltip="Food">
                   <Pizza />
                 </span>
               </Link>
