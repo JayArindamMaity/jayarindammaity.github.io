@@ -1,8 +1,14 @@
 .home-main {
-    margin-top: 10vh;
+    margin-top: 15vh;
     color: antiquewhite;
 }
 
 .home-heading {
     font-size: xx-large;
+}
+
+.heading-content {
+    margin-top: 20px;
+    font-size: larger;
+
 }
