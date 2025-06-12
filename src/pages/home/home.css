@@ -1,4 +1,8 @@
 .home-main {
     margin-top: 10vh;
-    color: white;
+    color: antiquewhite;
+}
+
+.home-heading {
+    font-size: xx-large;
 }

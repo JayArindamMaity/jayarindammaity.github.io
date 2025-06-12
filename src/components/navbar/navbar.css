@@ -18,7 +18,7 @@
 
 /* List items and links */
 .nav-items li a {
-  color: white;
+  color: antiquewhite;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@
 
 /* Hover effect */
 .nav-items li a:hover {
-  color: #ffcc00;
+  color: rgb(241, 198, 142);
 }
 
 .nav-container {
@@ -58,7 +58,7 @@
   left: 50%;
   transform: translateX(-50%);
   background-color: #333;
-  color: white;
+  color: antiquewhite;
   padding: 4px 8px;
   font-size: 0.75rem;
   white-space: nowrap;
