@@ -4,27 +4,17 @@
     color: antiquewhite;
 }
 
-.home-heading {
-    font-size: xx-large;
-    text-decoration: underline;
-    color: rgb(252, 202, 138);
-}
-
-.heading-content {
+.home-content {
     margin-top: 20px;
     font-size: larger;
 }
 
-.education-heading {
+.content-heading {
     text-decoration: underline;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: xx-large;
     color: rgb(252, 202, 138);
-}
-
-.education {
-    margin-top: 40px;
-    color: antiquewhite;
 }
 
 .section-title {

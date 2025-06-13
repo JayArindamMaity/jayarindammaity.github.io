@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <div className="home-main">
-        <div className="home-heading"><h2>Hello!</h2></div>
-        <div className="heading-content">
+        <div className="content-heading">Hello!</div>
+        <div className="home-content">
           I'm a curious mind who loves building things — whether it's with code,
           circuits, or even a simple recipe in the kitchen.
           <br /> <br />
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
         <div className="education">
-          <h2 className="education-heading">My Education</h2>
+          <div className="content-heading">My Education</div>
           <div className="education-entry">
             <div className="edu-level">Middle School</div>
             <div className="edu-details">
@@ -52,6 +52,28 @@ export default function Home() {
               </div>
               <div className="edu-score">7.5 CGPA</div>
             </div>
+          </div>
+        </div>
+
+        <div className="my-learning">
+          <div className="content-heading">
+            What I'm currently learning:
+          </div>
+        </div>
+
+        <div className="my-working">
+          <div className="content-heading">
+            What I'm doing:
+          </div>
+          <div className="home-content">
+            If you are curious about what i'm doing <br /> here it is (P.S. don't worry I wont bore you with details XD):
+            <ul>
+              <li>Writing tech blogs 👨‍💻</li>
+              <li>My college degree 🎓</li>
+              <li>DSA problems 📚</li>
+              <li>My website </li>
+              <li>Vim config files T_T </li>
+            </ul>
           </div>
         </div>
       </div>
