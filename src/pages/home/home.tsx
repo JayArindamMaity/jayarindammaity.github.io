@@ -58,6 +58,7 @@ export default function Home() {
         <div className="my-learning">
           <div className="content-heading">
             What I'm currently learning:
+            {/* this is where i add what im currently learning */}
           </div>
         </div>
 
