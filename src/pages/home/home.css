@@ -41,7 +41,7 @@
     flex-wrap: wrap;
     font-size: 16px;
     margin-top: 5px;
-    border-bottom: 1px dashed rgba(250, 235, 215, 0.555);
+    border-bottom: 1px dashed rgba(252, 203, 138, 0.685);
     padding-bottom: 5px;
     color: antiquewhite;
 }
@@ -49,4 +49,16 @@
 .edu-score {
     font-weight: 600;
     color: rgb(252, 202, 138);
+}
+
+.learning-chead {
+    color: rgb(252, 202, 138);
+    display: flex;
+    gap: 20vw;
+    font-size: x-large;
+}
+
+.learning-content {
+    display: flex;
+    gap: 20vw;
 }

@@ -1,6 +1,16 @@
 import "./home.css";
+import Mylearning from "../../components/mylearning/mylearning";
 
 export default function Home() {
+const learningData = [
+  {
+    topic: "Operating Systems",
+    resources: [
+      { name: "YouTube", url: "https://www.youtube.com/watch?v=yK1uBHPdp30" },
+    ],
+  },
+];
+
   return (
     <>
       <div className="home-main">
@@ -55,19 +65,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="my-learning">
-          <div className="content-heading">
-            What I'm currently learning:
-            {/* this is where i add what im currently learning */}
-          </div>
-        </div>
+        <Mylearning items={learningData} />
 
         <div className="my-working">
-          <div className="content-heading">
-            What I'm doing:
-          </div>
+          <div className="content-heading">What I'm doing:</div>
           <div className="home-content">
-            If you are curious about what i'm doing <br /> here it is (P.S. don't worry I wont bore you with details XD):
+            If you are curious about what i'm doing <br /> here it is (P.S.
+            don't worry I wont bore you with details XD):
             <ul>
               <li>Writing tech blogs 👨‍💻</li>
               <li>My college degree 🎓</li>
