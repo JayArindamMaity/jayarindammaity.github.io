@@ -1,4 +1,5 @@
 import "./home.css";
+import Contact from "../../components/contact/contact";
 import Mylearning from "../../components/mylearning/mylearning";
 
 export default function Home() {
@@ -81,6 +82,8 @@ const learningData = [
             </ul>
           </div>
         </div>
+
+        <Contact />
       </div>
     </>
   );

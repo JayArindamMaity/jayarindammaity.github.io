@@ -1,0 +1,111 @@
+.contact-main {
+    color: antiquewhite;
+}
+
+.contact-heading {
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: rgb(252, 202, 138);
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.custom-toast {
+  background-color: black !important;
+  color: antiquewhite !important;
+  border-radius: 5px;
+  border: 1px solid antiquewhite;
+}
+
+.Toastify__toast--success .Toastify__toast-icon {
+  svg {
+    fill: rgb(252, 202, 138) !important;
+  }
+}
+
+.Toastify__toast--error .Toastify__toast-icon {
+  svg {
+    fill: rgb(252, 202, 138) !important;
+  }
+}
+
+
+.contact-form {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: rgb(252, 202, 138);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    background-color: black;
+    color: antiquewhite;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: rgb(252, 202, 138);
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    opacity: 0.95;
+}
+
+.contact-eles {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contact-eles p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.contact-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+
+.contact-icons a {
+    color: antiquewhite;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.contact-icons a:hover {
+    color: rgb(252, 202, 138);
+}
