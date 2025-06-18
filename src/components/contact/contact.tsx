@@ -9,6 +9,8 @@ import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+// this needs to be completed T_T
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
