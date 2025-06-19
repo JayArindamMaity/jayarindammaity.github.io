@@ -14,8 +14,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5vh;
-    justify-content: center;
-    margin: 0 10%;
 }
 
 .custom-toast {
@@ -37,7 +35,6 @@
   }
 }
 
-
 .contact-form {
     flex: 1;
     min-width: 280px;
@@ -52,7 +49,7 @@
 
 .contact-form label {
     font-weight: bold;
-    color: rgb(252, 202, 138);
+    color: antiquewhite;
 }
 
 .contact-form input,
@@ -66,17 +63,19 @@
 }
 
 .contact-form button {
-    background-color: rgb(252, 202, 138);
-    color: #1a1a1a;
-    border: none;
+    background-color: black;
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
     padding: 10px 20px;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .contact-form button:hover {
-    opacity: 0.95;
+    background-color: rgb(252, 202, 138);
+    color: black;
 }
 
 .contact-eles {
@@ -89,23 +88,24 @@
     gap: 20px;
 }
 
-.contact-eles p {
-    font-size: 1rem;
-    line-height: 1.5;
+.contact-words {
+    margin-top: 30px;
+    font-size: larger;
 }
 
 .contact-icons {
     display: flex;
-    gap: 15px;
+    gap: 5vh;
     font-size: 1.5rem;
 }
 
 .contact-icons a {
     color: antiquewhite;
-    transition: color 0.2s;
+    transition: color 0.2s ease-in-out, transform;
     text-decoration: none;
 }
 
 .contact-icons a:hover {
+    transform: translateY(-4px);
     color: rgb(252, 202, 138);
 }

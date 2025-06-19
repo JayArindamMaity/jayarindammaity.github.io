@@ -9,8 +9,6 @@ import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-// this needs to be completed T_T
-
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -86,8 +84,18 @@ export default function Contact() {
             <button type="submit">Send</button>
           </form>
         </div>
+
         <div className="contact-eles">
-          <p>Use this to get in touch with me about anything XD</p>
+          <div className="contact-words">
+            If you chose to contact me, here are few things you can talk about:
+            <ul>
+              <li>Your project idea and datails</li>
+              <li>Assistance with your current project</li>
+              <li>More information on technical things</li>
+              <li>Anime recomendations XD</li>
+              <li>You can also challenge me to a game of League of Legends</li>
+            </ul>
+          </div>
           <div className="contact-icons">
             <a href="#">
               <SlSocialGithub />
