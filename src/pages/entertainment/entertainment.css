@@ -1,0 +1,20 @@
+.e-main {
+  margin-top: 15vh;
+  padding-bottom: 10vh;
+  color: antiquewhite;
+}
+
+.e-heading {
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  color: rgb(252, 202, 138);
+}
+
+.wall-grid {
+  margin-top: 2vh;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

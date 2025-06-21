@@ -37,8 +37,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/games">
-                <span className="tooltip" data-tooltip="Games">
+              <Link to="/entertainment">
+                <span className="tooltip" data-tooltip="Entertainment">
                   <Gamepad2 />
                 </span>
               </Link>
