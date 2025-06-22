@@ -1,6 +1,6 @@
 .wallpaper-card {
-  width: 300px;
-  border: 1px solid #ccc;
+  width: 40%;
+  border: 1px solid rgb(252, 202, 138);
   border-radius: 12px;
   overflow: hidden;
   transition: transform 0.2s;
@@ -75,12 +75,24 @@
   position: absolute;
   top: -10px;
   right: -10px;
-  background: #fff;
-  color: #000;
+  background: black;
+  color: antiquewhite;
   border: none;
   font-size: 24px;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+@media screen and (max-width:480px){
+  .wallpaper-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:920px){
+  .wallpaper-card {
+    width: 100%;
+  }
 }

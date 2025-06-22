@@ -9,5 +9,14 @@ export const wallpapers = [
     imageUrl: "src/data/wallpapers/pop-art.jpg",
     downloadName: "Pop Art",
   },
-  
+  {
+    title: "Blood Mage",
+    imageUrl: "src/data/wallpapers/blood-mage.jpeg",
+    downloadName: "Blood Mage",
+  },
+  {
+    title: "Makima",
+    imageUrl: "src/data/wallpapers/makima.jpg",
+    downloadName: "Makima",
+  },
 ];
