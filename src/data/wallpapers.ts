@@ -1,22 +1,52 @@
 export const wallpapers = [
   {
-    title: "Anime Girl",
+    title: "anime",
     imageUrl: "/wallpapers/anime-girl.jpg",
     downloadName: "Anime Girl",
   },
   {
-    title: "Pop Art",
+    title: "popart",
     imageUrl: "/wallpapers/pop-art.jpg",
     downloadName: "Pop Art",
   },
   {
-    title: "Blood Mage",
+    title: "mage",
     imageUrl: "/wallpapers/blood-mage.jpeg",
     downloadName: "Blood Mage",
   },
   {
-    title: "Makima",
+    title: "makima",
     imageUrl: "/wallpapers/makima.jpg",
     downloadName: "Makima",
+  },
+  {
+    title: "cat",
+    imageUrl: "/wallpapers/cat.png",
+    downloadName: "Cat",
+  },
+  {
+    title: "shinobu",
+    imageUrl: "/wallpapers/shinobu.jpg",
+    downloadName: "Shinobu",
+  },
+  {
+    title: "mystical",
+    imageUrl: "/wallpapers/mystical.jpg",
+    downloadName: "Mystical",
+  },
+  {
+    title: "sunset",
+    imageUrl: "/wallpapers/sunset.jpeg",
+    downloadName: "Sunset",
+  },
+  {
+    title: "witch",
+    imageUrl: "/wallpapers/witch.png",
+    downloadName: "Witch",
+  },
+  {
+    title: "fantasy",
+    imageUrl: "/wallpapers/fantasy.jpg",
+    downloadName: "Fantasy",
   },
 ];
