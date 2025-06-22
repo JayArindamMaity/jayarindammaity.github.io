@@ -12,3 +12,10 @@
     margin-right: 5vw;
   }
 }
+
+@media screen and (max-width:780px){
+  .main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}

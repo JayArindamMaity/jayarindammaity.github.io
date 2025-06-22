@@ -97,16 +97,16 @@ export default function Contact() {
             </ul>
           </div>
           <div className="contact-icons">
-            <a href="#">
+            <a href="https://github.com/JayArindamMaity" target="blank">
               <SlSocialGithub />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/jayarindammaity/" target="blank">
               <SlSocialLinkedin />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/jayarindammaity/" target="blank">
               <SlSocialInstagram />
             </a>
-            <a href="#">
+            <a href="#" target="blank">
               <SlSocialTwitter />
             </a>
           </div>
