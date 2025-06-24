@@ -11,9 +11,57 @@ const featured_cert = [
 //     organisation: "",
 //     issuedate : "",
 //     certlink: "",
-// }
+// },
 
 const all_certificates = [
+  {
+    name: "Inspiring and Motivating Individuals",
+    organisation: "University of Michigan",
+    issuedate: "November 2023",
+    certlink: "https://coursera.org/share/24ad3aac1d06975eb6ce32f29c59d240",
+  },
+  {
+    name: "Leading Teams",
+    organisation: "University of Michigan",
+    issuedate: "November 2023",
+    certlink: "https://coursera.org/share/5fda755c0763d6c002145e7dd755f4f7",
+  },
+  {
+    name: "Influencing People",
+    organisation: "University of Michigan",
+    issuedate: "November 2023",
+    certlink: "https://coursera.org/share/ed452eebb3de2257be55ea0f91e9636f",
+  },
+  {
+    name: "Managing Talent",
+    organisation: "University of Michigan",
+    issuedate: "November 2023",
+    certlink: "https://coursera.org/share/bdba16a772ec89ea3e91a1d7fb139b12",
+  },
+  {
+    name: "Leading People and Teams Capstone",
+    organisation: "University of Michigan",
+    issuedate: "November 2023",
+    certlink: "https://coursera.org/share/78c6782feea10cdbe97a4b25249a1a83",
+  },
+  {
+    name: "Cloud Computing Foundations",
+    organisation: "IBM",
+    issuedate: "Feb 2024",
+    certlink: "https://coursera.org/share/0591eb483aa3dcaec61790e443a68c7b",
+  },
+  {
+    name: "Machine Learning Capstone",
+    organisation: "IBM",
+    issuedate: "March 2024",
+    certlink: "https://coursera.org/share/f6812b3069a0cde0a2478d476b9fe7d4",
+  },
+  {
+    name: "Introduction to DevOps",
+    organisation: "IBM",
+    issuedate: "April 2024",
+    certlink: "https://coursera.org/share/700b7e3baf05f90dd31c579058bc7c31",
+  },
   {
     name: "Introduction to Cloud Computing",
     organisation: "IBM",
@@ -25,6 +73,12 @@ const all_certificates = [
     organisation: "Duke University",
     issuedate: "May 2024",
     certlink: "https://coursera.org/share/c651d860c84f2f61d1987e805bfaeb90",
+  },
+  {
+    name: "Cloud Virtualization, Containers and APIs",
+    organisation: "Duke University",
+    issuedate: "May 2024",
+    certlink: "https://coursera.org/share/f0ba0e12718a099937376144506bb8b3",
   },
   {
     name: "Introduction to Social Media Marketing",
@@ -39,10 +93,34 @@ const all_certificates = [
     certlink: "https://coursera.org/share/c21278a5358b4845b248b8d2342ccc0c",
   },
   {
+    name: "Social Media Management",
+    organisation: "Meta",
+    issuedate: "May 2024",
+    certlink: "https://coursera.org/share/ae8ec69f4637b1bb5e9f3ee43ad1b322",
+  },
+  {
+    name: "Measure and Optimize Social Media Marketing Campaigns",
+    organisation: "Meta",
+    issuedate: "May 2024",
+    certlink: "https://coursera.org/share/9276e7dd4d2b679da98f2d0a5aabe9b9",
+  },
+  {
+    name: "Fundamentals of Social Media Advertising",
+    organisation: "Meta",
+    issuedate: "May 2024",
+    certlink: "https://coursera.org/share/6ad02003fdc001c484c2bbdb4179c377",
+  },
+  {
     name: "Introduction to Artificial Intelligence (AI)",
     organisation: "IBM",
     issuedate: "October 2024",
     certlink: "https://coursera.org/share/cc15504f6edd10808906caed16b3db94",
+  },
+  {
+    name: "Generative AI: Introduction and Applications",
+    organisation: "IBM",
+    issuedate: "October 2024",
+    certlink: "https://coursera.org/share/8fe0a1ccd829e933c3371d6206a8d960",
   },
   {
     name: "Building AI Powered Chatbots Without Programming",
