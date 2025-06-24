@@ -1,6 +1,7 @@
 .cert-main {
   display: flex;
   justify-content: space-between;
+  gap: 10vw;
   color: antiquewhite;
   font-size: larger;
 }
