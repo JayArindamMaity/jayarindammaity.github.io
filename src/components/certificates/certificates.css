@@ -1,0 +1,18 @@
+.cert-main {
+  display: flex;
+  justify-content: space-between;
+  color: antiquewhite;
+  font-size: larger;
+}
+
+.cert-button {
+  text-decoration: none;
+  color: rgb(252, 202, 138);
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cert-button:hover {
+  transform: translateY(-3px);
+  color: antiquewhite;
+}
