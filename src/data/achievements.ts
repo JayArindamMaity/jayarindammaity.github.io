@@ -176,6 +176,18 @@ const all_certificates = [
     issuedate: "May 2025",
     certlink: "https://coursera.org/share/8bcdb84ef919eddab942b2034fdc0a42",
   },
+  {
+    name: "Python (Basic) Certificate",
+    organisation: "Hackerrank",
+    issuedate: "September 2023",
+    certlink: "https://www.hackerrank.com/certificates/iframe/64016d32f6e2",
+  },
+  {
+    name: "Problem Solving (Basic) Certificate",
+    organisation: "Hackerrank",
+    issuedate: "September 2023",
+    certlink: "https://www.hackerrank.com/certificates/iframe/b4f4509852f3",
+  },
   // {
   //     name : "",
   //     organisation: "",
