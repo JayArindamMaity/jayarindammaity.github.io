@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/navbar/navbar";
 import Achievements from "./pages/achievements/achievements";
-import Books from "./pages/books/books";
+import Learning from "./pages/learning/learning";
 import Home from "./pages/home/home";
 import Projects from "./pages/projects/projects";
 import Entertainment from "./pages/entertainment/entertainment";
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/achievements" element={<Achievements />} />
-          <Route path="/books" element={<Books />} />
+          <Route path="/learning" element={<Learning />} />
           <Route path="/entertainment" element={<Entertainment />} />
           <Route path="/food" element={<Food />} />
         </Routes>

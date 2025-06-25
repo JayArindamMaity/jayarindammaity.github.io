@@ -30,8 +30,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/books">
-                <span className="tooltip" data-tooltip="Books">
+              <Link to="/learning">
+                <span className="tooltip" data-tooltip="Learning">
                   <BookA />
                 </span>
               </Link>
