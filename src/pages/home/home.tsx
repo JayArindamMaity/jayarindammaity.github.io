@@ -3,22 +3,23 @@ import Contact from "../../components/contact/contact";
 import Mylearning from "../../components/mylearning/mylearning";
 
 export default function Home() {
-const learningData = [
-  {
-    topic: "Operating Systems",
-    resources: [
-      { name: "YouTube", url: "https://www.youtube.com/watch?v=yK1uBHPdp30" },
-    ],
-  },
-];
+  const learningData = [
+    {
+      topic: "Operating Systems",
+      resources: [
+        { name: "YouTube", url: "https://www.youtube.com/watch?v=yK1uBHPdp30" },
+      ],
+    },
+  ];
 
   return (
     <>
       <div className="home-main">
         <div className="content-heading">Hello!</div>
         <div className="home-content">
-          I'm a curious mind who loves building things — whether it's with code,
-          circuits, or even a simple recipe in the kitchen.
+          I'm Jay Aridndam Maity a curious mind who loves building things —
+          whether it's with code, circuits, or even a simple recipe in the
+          kitchen.
           <br /> <br />
           Professionally, I dive into programming with languages like C, C++,
           JavaScript, and Python, along with their ecosystems and frameworks.
@@ -42,10 +43,12 @@ const learningData = [
         <div className="education">
           <div className="content-heading">My Education</div>
           <div className="education-entry">
-            <div className="edu-level">Middle School</div>
+            <div className="edu-level">College</div>
             <div className="edu-details">
-              <div>St. Mary's School, Chandigarh</div>
-              <div className="edu-score">87%</div>
+              <div>
+                Chitkara University — B.E. Computer Science & Engineering
+              </div>
+              <div className="edu-score">7.5 CGPA</div>
             </div>
           </div>
           <div className="education-entry">
@@ -56,12 +59,10 @@ const learningData = [
             </div>
           </div>
           <div className="education-entry">
-            <div className="edu-level">College</div>
+            <div className="edu-level">Middle School</div>
             <div className="edu-details">
-              <div>
-                Chitkara University — B.E. Computer Science & Engineering
-              </div>
-              <div className="edu-score">7.5 CGPA</div>
+              <div>St. Mary's School, Chandigarh</div>
+              <div className="edu-score">87%</div>
             </div>
           </div>
         </div>
