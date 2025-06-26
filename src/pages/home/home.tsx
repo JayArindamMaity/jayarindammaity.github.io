@@ -1,16 +1,8 @@
 import "./home.css";
 import Contact from "../../components/contact/contact";
 import Mylearning from "../../components/mylearning/mylearning";
-
+import { learning_data } from "../../data/learning";
 export default function Home() {
-  const learningData = [
-    {
-      topic: "Operating Systems",
-      resources: [
-        { name: "YouTube", url: "https://www.youtube.com/watch?v=yK1uBHPdp30" },
-      ],
-    },
-  ];
 
   return (
     <>
@@ -67,7 +59,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Mylearning items={learningData} />
+        <Mylearning items={learning_data} />
 
         <div className="my-working">
           <div className="content-heading">What I'm doing:</div>
