@@ -1,0 +1,17 @@
+.recommender-main {
+    margin-top: 2vh;
+    border: 1px solid antiquewhite;
+    border-radius: 12px;
+    padding: 2%;
+}
+
+.recommender-ask {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rec-button {
+    margin-right: 12px;
+    margin-left: 12px;
+}
