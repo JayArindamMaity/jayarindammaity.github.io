@@ -133,12 +133,129 @@ const movies: Movie[] = [
     director: "Chad Stahelski",
     watchlink: "",
   },
+  {
+    movie: "The Dark Knight",
+    director: "Christoper Nolan",
+    watchlink: "",
+  },
+  {
+    movie: "Oppenheimer",
+    director: "Christoper Nolan",
+    watchlink: "",
+  },
+  {
+    movie: "Green Book",
+    director: "Peter Farelly",
+    watchlink: "",
+  },
+  {
+    movie: "La La Land",
+    director: "Damien Chazelle",
+    watchlink: "",
+  },
+  {
+    movie: "The Conjuring",
+    director: "James wan",
+    watchlink: "",
+  },
+  {
+    movie: "Dune",
+    director: "Denis Villeneuve",
+    watchlink: "",
+  },
+  {
+    movie: "The Social Network",
+    director: "David Fincher",
+    watchlink: "",
+  },
+  {
+    movie: "Wiplash",
+    director: "David Fincher",
+    watchlink: "",
+  },
 ];
+
+// ---------------------- this is the sample data for suggested games
+// {
+//   game: "",
+//   studio: "",
+//   platform: "",
+// },
 
 const games: Game[] = [
   {
     game: "House of The Dead 2",
     studio: "sega",
+    platform: "PC",
+  },
+  {
+    game: "DOOM",
+    studio: "Bethesda Softworks",
+    platform: "PC",
+  },
+  {
+    game: "Far Cry 3",
+    studio: "Ubisoft",
+    platform: "PC",
+  },
+  {
+    game: "Shadow Of The Tomb Raider",
+    studio: "Square ENIX",
+    platform: "PC",
+  },
+  {
+    game: "Grand Theft Auto 4",
+    studio: "Rockstar",
+    platform: "PC",
+  },
+  {
+    game: "League Of Legends",
+    studio: "Riot Games",
+    platform: "PC",
+  },
+  {
+    game: "Asphalt 9",
+    studio: "Gameloft",
+    platform: "PC",
+  },
+  {
+    game: "God Of War",
+    studio: "Santa Monica",
+    platform: "PC",
+  },
+  {
+    game: "Witcher 3: Wild Hunt",
+    studio: "CD Projekt RED",
+    platform: "PC",
+  },
+  {
+    game: "Assassins Creed II",
+    studio: "Ubisoft",
+    platform: "PC",
+  },
+  {
+    game: "Luxor Quest For the Afterlife",
+    studio: "MumboJumbo",
+    platform: "PC",
+  },
+  {
+    game: "Cyberpunk 2077",
+    studio: "CD Projekt RED",
+    platform: "PC",
+  },
+  {
+    game: "Resident Evil Village",
+    studio: "CAPCOM Co., Ltd.",
+    platform: "PC",
+  },
+  {
+    game: "Black Myth Wukong",
+    studio: "Game Science",
+    platform: "PC",
+  },
+  {
+    game: "Elden Ring",
+    studio: "Bandai Namco Entertainment",
     platform: "PC",
   },
 ];
