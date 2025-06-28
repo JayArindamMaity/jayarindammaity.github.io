@@ -19,12 +19,14 @@ const anime: Anime[] = [
   {
     aniname: "SpyXFamily",
     studio: "CloverWorks",
-    watchlink: "https://www.youtube.com/watch?v=h_tL16PZ0IE&list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI",
+    watchlink:
+      "https://www.youtube.com/watch?v=h_tL16PZ0IE&list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI",
   },
   {
     aniname: "One Punch Man",
     studio: "J.C.Staff",
-    watchlink: "https://www.youtube.com/watch?v=VvK6UZWNU2Q&list=PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G",
+    watchlink:
+      "https://www.youtube.com/watch?v=VvK6UZWNU2Q&list=PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G",
   },
 ];
 
@@ -101,8 +103,23 @@ const movies: Movie[] = [
     watchlink: "",
   },
   {
-    movie: "How to train your dragon",
+    movie: "How to Train Your Dragon",
     director: "Chris Sanders",
+    watchlink: "",
+  },
+  {
+    movie: "Train to Busan",
+    director: "Yeon Sang-Ho",
+    watchlink: "",
+  },
+  {
+    movie: "Kung Fu Panda",
+    director: "Mark Osborne",
+    watchlink: "",
+  },
+  {
+    movie: "John Wick",
+    director: "Chad Stahelski",
     watchlink: "",
   },
 ];
