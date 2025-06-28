@@ -3,6 +3,7 @@ import type { Movie, Song, Anime, Game } from "./types";
 //--------------- this is the sample fomatting for to suggest array of objects
 //     {
 //         aniname: "",
+//         studio: "",
 //         watchlink: ""
 //     },
 const anime: Anime[] = [
@@ -27,6 +28,16 @@ const anime: Anime[] = [
     studio: "J.C.Staff",
     watchlink:
       "https://www.youtube.com/watch?v=VvK6UZWNU2Q&list=PLwLSw1_eDZl2XdtLhB9NG2Ch050jWFm9G",
+  },
+  {
+    aniname: "Demon Slayer",
+    studio: "Ufotable",
+    watchlink: "https://www.netflix.com/in/title/81091393",
+  },
+  {
+    aniname: "Devil May Cry",
+    studio: "Studio Mir",
+    watchlink: "https://www.netflix.com/in/title/81506915",
   },
 ];
 
