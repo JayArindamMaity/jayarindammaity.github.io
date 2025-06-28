@@ -1,9 +1,11 @@
+import type { Movie, Song, Anime, Game } from "./types";
+
 //--------------- this is the sample fomatting for to suggest array of objects
 //     {
 //         aniname: "",
 //         watchlink: ""
 //     },
-const anime_to_recommend = [
+const anime: Anime[] = [
   {
     aniname: "Hellsing Ultimate",
     studio: "",
@@ -33,7 +35,7 @@ const anime_to_recommend = [
 //   spotify: ""
 // }
 
-const songs_to_recommend = [
+const songs: Song[] = [
   {
     songname: "The Scientist",
     artist: "Coldplay",
@@ -44,6 +46,26 @@ const songs_to_recommend = [
     artist: "Ed Sheeran",
     spotify: "",
   },
+  {
+    songname: "High and Dry",
+    artist: "Radiohead",
+    spotify: "",
+  },
+  {
+    songname: "Silvitni",
+    artist: "Eivor",
+    spotify: "",
+  },
+  {
+    songname: "Fade Into You",
+    artist: "Mazzy Star",
+    spotify: "",
+  },
+  {
+    songname: "Delicate Weapon",
+    artist: "Grimes",
+    spotify: "",
+  },
 ];
 
 // ------------------------ this is the sample data for sugested movies
@@ -52,7 +74,7 @@ const songs_to_recommend = [
 //     director: "",
 //     watchlink: ""
 //  }
-const movie_to_recommend = [
+const movies: Movie[] = [
   {
     movie: "Interstellar",
     director: "Christoper Nolan",
@@ -65,9 +87,11 @@ const movie_to_recommend = [
   },
 ];
 
-const games_to_recommend = [
+const games: Game[] = [
   {
-    game: "House of The Dead 2"
-  }
-]
-export { anime_to_recommend, songs_to_recommend, movie_to_recommend , games_to_recommend};
+    game: "House of The Dead 2",
+    studio: "sega",
+    platform: "PC",
+  },
+];
+export { anime, songs, movies, games };

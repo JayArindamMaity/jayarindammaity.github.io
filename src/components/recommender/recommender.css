@@ -1,17 +1,105 @@
 .recommender-main {
-    margin-top: 2vh;
-    border: 1px solid antiquewhite;
-    border-radius: 12px;
-    padding: 2%;
+  margin-top: 2vh;
+  border: 1px solid rgb(252, 202, 138);
+  border-radius: 12px;
+  padding: 2%;
 }
 
 .recommender-ask {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  color: rgb(252, 202, 138);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .rec-button {
-    margin-right: 12px;
-    margin-left: 12px;
+  background-color: black;
+  color: rgb(252, 202, 138);
+  border: none;
+  border-radius: 50px;
+  margin-right: 12px;
+  margin-left: 12px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.rec-button:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.recommend-button {
+  margin-top: 12px;
+  background-color: black;
+  color: antiquewhite;
+  border: 1px solid antiquewhite;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  width: 100%;
+}
+
+.recommend-button:hover {
+  background-color: rgb(252, 202, 138);
+  color: black;
+}
+
+.hori-rule {
+  border: 0;
+  height: 3px;
+  background-color: rgb(252, 202, 138);
+  border-radius: 5px;
+}
+
+
+.rec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.rec-card {
+  background: black;
+  color: antiquewhite;
+  border-radius: 12px;
+  border: 1px solid antiquewhite;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, border 0.5s ease;
+}
+
+.rec-card:hover {
+  border: 1px solid rgb(252, 202, 138);
+  transform: translateY(-4px);
+}
+
+.rec-meta {
+  margin-top: 10px;
+}
+
+.rec-title {
+  font-size: larger;
+  margin: 0;
+}
+
+.rec-link {
+  margin-top: 10px;
+  background-color: black;
+  color: antiquewhite;
+  border: 1px solid antiquewhite;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.rec-link:hover {
+  background-color: rgb(252, 202, 138);
+  color: black;
 }
