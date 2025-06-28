@@ -9,12 +9,12 @@ const anime: Anime[] = [
   {
     aniname: "Hellsing Ultimate",
     studio: "Madhouse",
-    watchlink: "",
+    watchlink: "https://www.crunchyroll.com/series/GYWEQ4Q3Y/hellsing-ultimate",
   },
   {
     aniname: "Attack on Titan",
     studio: "Mappa",
-    watchlink: "",
+    watchlink: "https://www.crunchyroll.com/series/GR751KNZY/attack-on-titan",
   },
   {
     aniname: "SpyXFamily",
