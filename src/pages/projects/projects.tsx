@@ -1,4 +1,6 @@
 import "./projects.css";
+import Gitrepos from "../../components/gitrepos/gitrepos";
+import { git_links } from "../../data/projects";
 
 export default function Projects() {
   return (
@@ -20,6 +22,8 @@ export default function Projects() {
             <br /><br /> These projects may be CLI (Command Line Interface) based or just config files and might not contain actual GUI (Graphic User Interface)...
             none the less, these are still some of the cool things that I built that you can enjoy...
             <br /><br />Don't forget to check them out 😄
+            <Gitrepos  repos={git_links} />
+            
           </div>
         </div>
       </div>

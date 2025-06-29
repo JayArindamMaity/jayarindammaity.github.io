@@ -39,8 +39,23 @@ const all_projects = [
     The frontend was primarily made with the help of HTML and CSS`,
     github: "",
     deploymentlink: "",
-    techstack: ["HTML" , "CSS" , "Javascript" , "Firebase"],
+    techstack: ["HTML", "CSS", "Javascript", "Firebase"],
   },
 ];
 
-export {all_projects};
+const git_links = [
+  {
+    reponame: "screensaver",
+    repolink: "https://github.com/JayArindam/screensaver",
+    repodesc:
+      "This is a basic python script that just applies your custom screensaver on demand",
+  },
+  {
+    reponame: "vimconfigs",
+    repolink: "https://github.com/JayArindam/vimconfigs",
+    repodesc:
+      "This is the nvim configuration that im currently using, You can also give this a try",
+  },
+];
+
+export { all_projects , git_links };
