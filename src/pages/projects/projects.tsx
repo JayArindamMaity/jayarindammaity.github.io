@@ -12,6 +12,15 @@ export default function Projects() {
             <br /> <br />I hope you like my projects...
           </div>
         </div>
+
+        <div className="p-gitlinks">
+          <div className="p-heading">My Git Repos</div>
+          <div className="p-content">
+            These are some of my Git repositories. These may consist of scripts and tools that allow you to achieve some cool functionality...
+            <br /><br /> These projects may be CLI (Command Line Interface) or just config files and might not contain actual GUI (Graphic User Interface)...
+            none the less, these are still some of the cool things that I built that you can enjoy XD
+          </div>
+        </div>
       </div>
     </>
   );
