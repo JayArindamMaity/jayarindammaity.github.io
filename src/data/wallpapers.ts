@@ -1,3 +1,9 @@
+// ---- this is a sample data entry for the wallpapers
+//   {
+//     title: "",
+//     imageUrl: "/wallpapers/",
+//     downloadName: "",
+//   },
 export const wallpapers = [
   {
     title: "anime",
@@ -49,4 +55,19 @@ export const wallpapers = [
     imageUrl: "/wallpapers/fantasy.jpg",
     downloadName: "Fantasy",
   },
+  {
+    title: "darkness",
+    imageUrl: "/wallpapers/darkness.png",
+    downloadName: "darkness",
+  },
+  {
+    title: "chomusuke",
+    imageUrl: "/wallpapers/chomusuke.png",
+    downloadName: "chomusuke",
+  },
+  //   {
+  //     title: "",
+  //     imageUrl: "/wallpapers/",
+  //     downloadName: "",
+  //   },
 ];
