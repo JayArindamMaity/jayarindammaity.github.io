@@ -94,6 +94,16 @@ const songs: Song[] = [
     artist: "Crysoshell",
     spotify: "https://open.spotify.com/track/7piKVALJFj1tIGKI1E47FP",
   },
+  {
+    songname: "Scott and Zelda",
+    artist: "BIBI",
+    spotify: "https://open.spotify.com/track/1MJyiTlVdSLAjI9aclZ3hL",
+  },
+  {
+    songname: "Too Sweet",
+    artist: "Hozier",
+    spotify: "https://open.spotify.com/album/48qd9sU3xqYJbKaxHCciJL"
+  }
   // {
   //   songname: "",
   //   artist: "",
