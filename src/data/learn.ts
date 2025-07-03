@@ -16,4 +16,20 @@ const youtube_learn_vids = [
   },
 ];
 
-export { youtube_learn_vids };
+
+// this is the sample data for some good and suggested repositories XD
+//   {
+//     reponame: "",
+//     repodesc: "",
+//     repoling: "",
+//   }
+
+const good_git_repos = [
+  {
+    reponame: "Build Your Own X",
+    repodesc: "This repo has a bunch of links that will guide you to make really cool projects",
+    repolink: "https://github.com/codecrafters-io/build-your-own-x",
+  }
+]
+
+export { youtube_learn_vids , good_git_repos };
