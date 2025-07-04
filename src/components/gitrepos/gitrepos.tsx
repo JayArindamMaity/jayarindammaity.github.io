@@ -16,12 +16,13 @@ const Gitrepos: React.FC<GitreposProps> = ({ repos }) => {
     <>
       {repos.map((repo, index) => (
         <div className="repo-main" key={index}>
-          <div className="repo-name">
+          <ul>
+            <li>
             <a href={repo.repolink} target="blank" className="repo-button">
               {repo.reponame}
-            </a>
-          </div>
-          <div className="repo-desc">{repo.repodesc}</div>
+            </a>: {repo.repodesc}
+            </li>
+          </ul>
         </div>
       ))}
     </>

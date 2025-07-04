@@ -1,6 +1,7 @@
 import "./learning.css";
 import Yvids from "../../components/yvids/yvide";
-import { youtube_learn_vids } from "../../data/learn";
+import Gitrepos from "../../components/gitrepos/gitrepos";
+import { youtube_learn_vids, good_git_repos } from "../../data/learn";
 
 export default function Learning() {
   return (
@@ -37,36 +38,76 @@ export default function Learning() {
             <br /> Here are some of the coding platforms that I would recommend:
             <ul>
               <li>
-                <a href="https://codeforces.com/" className="l-button">Codeforces</a>: Generally Good, and you will have to
-                code everything acc. to given problem
+                <a href="https://codeforces.com/" className="l-button">
+                  Codeforces
+                </a>
+                : Generally Good, and you will have to code everything acc. to
+                given problem
               </li>
               <li>
-                <a href="https://leetcode.com/" className="l-button">Leetcode</a>: Another generally good option but you
-                only have to write the main function
+                <a href="https://leetcode.com/" className="l-button">
+                  Leetcode
+                </a>
+                : Another generally good option but you only have to write the
+                main function
               </li>
               <li>
-                <a href="https://www.geeksforgeeks.org/problem-of-the-day" className="l-button">GeeksForGeeks</a>: This is also a nice platform for
-                general practice
+                <a
+                  href="https://www.geeksforgeeks.org/problem-of-the-day"
+                  className="l-button"
+                >
+                  GeeksForGeeks
+                </a>
+                : This is also a nice platform for general practice
               </li>
               <li>
-                <a href="https://www.hackerrank.com/" className="l-button">Hackerrank</a>: This is a recommended platform if you
-                are a begineer and are learning to code
+                <a href="https://www.hackerrank.com/" className="l-button">
+                  Hackerrank
+                </a>
+                : This is a recommended platform if you are a begineer and are
+                learning to code
               </li>
               <li>
-                <a href="https://atcoder.jp/" className="l-button">AtCoder</a>: This is Japan based platform known for
-                high quality questions
+                <a href="https://atcoder.jp/" className="l-button">
+                  AtCoder
+                </a>
+                : This is Japan based platform known for high quality questions
               </li>
               <li>
-                <a href="https://projecteuler.net/" className="l-button">ProjectEuler</a>: This is another good platform that
-                might be intimidating to begineers
+                <a href="https://projecteuler.net/" className="l-button">
+                  ProjectEuler
+                </a>
+                : This is another good platform that might be intimidating to
+                begineers
               </li>
               <li>
-                <a href="https://www.codechef.com/" className="l-button">Codechef</a>: I would recommend the old practice page
+                <a href="https://www.codechef.com/" className="l-button">
+                  Codechef
+                </a>
+                : I would recommend the old practice page
               </li>
             </ul>
           </div>
         </div>
 
+        <div className="l-gitreps">
+          <div className="l-heading">
+            Some good git repositories to learn new things
+          </div>
+          <div className="l-content">
+            These are some really good git repositories that I recommend
+            checking out for they containg content that might be of great use to
+            you especially if you are a developer.
+            <br />
+            <br />
+            Plus you can use them to learn something new that can help you in
+            your upcomming project.
+          </div>
+          <div className="l-content">
+            <Gitrepos repos={good_git_repos} />
+          </div>
+        </div>
+        
         <div className="l-y-vids">
           <div className="l-heading">
             Some Good Youtube Videos to Learn From
