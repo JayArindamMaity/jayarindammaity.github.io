@@ -102,8 +102,18 @@ const songs: Song[] = [
   {
     songname: "Too Sweet",
     artist: "Hozier",
-    spotify: "https://open.spotify.com/album/48qd9sU3xqYJbKaxHCciJL"
-  }
+    spotify: "https://open.spotify.com/album/48qd9sU3xqYJbKaxHCciJL",
+  },
+  {
+    songname: "Back To Black",
+    artist: "Amy Winehouse",
+    spotify: "https://open.spotify.com/track/3FAclTFfvUuQYnEsptbK8w",
+  },
+  {
+    songname: "Strangers",
+    artist: "Kenya Grace",
+    spotify: "https://open.spotify.com/track/5mjYQaktjmjcMKcUIcqz4s",
+  },
   // {
   //   songname: "",
   //   artist: "",
