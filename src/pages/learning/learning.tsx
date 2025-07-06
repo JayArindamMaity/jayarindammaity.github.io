@@ -1,7 +1,7 @@
 import "./learning.css";
 import Yvids from "../../components/yvids/yvide";
 import Gitrepos from "../../components/gitrepos/gitrepos";
-import { youtube_learn_vids, good_git_repos } from "../../data/learn";
+import { youtube_learn_vids, good_git_repos } from "../../data/learning";
 
 export default function Learning() {
   return (

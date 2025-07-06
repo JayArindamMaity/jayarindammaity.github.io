@@ -6,7 +6,7 @@ import Home from "./pages/home/home";
 import Projects from "./pages/projects/projects";
 import Entertainment from "./pages/entertainment/entertainment";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Food from "./pages/food/food";
+import Recepies from "./pages/recepies/recepies";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/learning" element={<Learning />} />
           <Route path="/entertainment" element={<Entertainment />} />
-          <Route path="/food" element={<Food />} />
+          <Route path="/recepies" element={<Recepies />} />
         </Routes>
       </div>
     </Router>

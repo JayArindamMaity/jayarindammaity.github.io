@@ -1,5 +1,13 @@
 import "./navbar.css";
-import { House, Award, AppWindow, BookA, Gamepad2, Pizza } from "lucide-react";
+import {
+  House,
+  Award,
+  AppWindow,
+  BookA,
+  Gamepad2,
+  Pizza,
+  PenBox,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -37,6 +45,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
+              <Link to="/blog">
+                <span className="tooltip" data-tooltip="My Blog">
+                  <PenBox />
+                </span>
+              </Link>
+            </li>
+            <li>
               <Link to="/entertainment">
                 <span className="tooltip" data-tooltip="Entertainment">
                   <Gamepad2 />
@@ -44,8 +59,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/food">
-                <span className="tooltip" data-tooltip="Food">
+              <Link to="/recepies">
+                <span className="tooltip" data-tooltip="Recepies">
                   <Pizza />
                 </span>
               </Link>
