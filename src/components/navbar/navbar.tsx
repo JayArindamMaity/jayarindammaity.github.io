@@ -6,7 +6,7 @@ import {
   BookA,
   Gamepad2,
   Pizza,
-  PenBox,
+  // PenBox,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -44,13 +44,13 @@ export default function Navbar() {
                 </span>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/blog">
                 <span className="tooltip" data-tooltip="My Blog">
                   <PenBox />
                 </span>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/entertainment">
                 <span className="tooltip" data-tooltip="Entertainment">
@@ -59,8 +59,8 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/recepies">
-                <span className="tooltip" data-tooltip="Recepies">
+              <Link to="/recipes">
+                <span className="tooltip" data-tooltip="Recipes">
                   <Pizza />
                 </span>
               </Link>

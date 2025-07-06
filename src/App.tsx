@@ -6,7 +6,7 @@ import Home from "./pages/home/home";
 import Projects from "./pages/projects/projects";
 import Entertainment from "./pages/entertainment/entertainment";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Recepies from "./pages/recepies/recepies";
+import Recipes from "./pages/recipes/recipes";
 import Footer from "./components/footer/footer";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             <Route path="/achievements" element={<Achievements />} />
             <Route path="/learning" element={<Learning />} />
             <Route path="/entertainment" element={<Entertainment />} />
-            <Route path="/recepies" element={<Recepies />} />
+            <Route path="/recipes" element={<Recipes />} />
           </Routes>
         </div>
 
