@@ -1,4 +1,6 @@
 import "./recipes.css";
+import { drinks } from "../../data/recipes";
+import Drinks from "../../components/drinks/drinks";
 
 export default function Recipes() {
   return (
@@ -30,6 +32,7 @@ export default function Recipes() {
             These recipes are easy, refreshing, and 100% debugged (yes, they're
             all virgin).
           </div>
+          <Drinks drinks={drinks}/>
         </div>
 
       </div>

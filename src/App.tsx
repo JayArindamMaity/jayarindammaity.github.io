@@ -8,6 +8,7 @@ import Entertainment from "./pages/entertainment/entertainment";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Recipes from "./pages/recipes/recipes";
 import Footer from "./components/footer/footer";
+import RecipeDetail from "./pages/recipes/detail/detail";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/learning" element={<Learning />} />
             <Route path="/entertainment" element={<Entertainment />} />
             <Route path="/recipes" element={<Recipes />} />
+            <Route path="/recipes/:name" element={<RecipeDetail />} />
           </Routes>
         </div>
 
@@ -31,6 +33,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;
