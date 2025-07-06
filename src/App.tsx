@@ -7,24 +7,30 @@ import Projects from "./pages/projects/projects";
 import Entertainment from "./pages/entertainment/entertainment";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Recepies from "./pages/recepies/recepies";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <Router>
-      <div className="main">
+      <div className="page-container">
         <Navbar />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/achievements" element={<Achievements />} />
-          <Route path="/learning" element={<Learning />} />
-          <Route path="/entertainment" element={<Entertainment />} />
-          <Route path="/recepies" element={<Recepies />} />
-        </Routes>
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/achievements" element={<Achievements />} />
+            <Route path="/learning" element={<Learning />} />
+            <Route path="/entertainment" element={<Entertainment />} />
+            <Route path="/recepies" element={<Recepies />} />
+          </Routes>
+        </div>
+
+        <Footer />
       </div>
     </Router>
   );
 }
+
 
 export default App;
