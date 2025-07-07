@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         <div className="education">
-          <div className="content-heading">My Education</div>
+          <div className="content-heading">My Education 🎓</div>
           <div className="education-entry">
             <div className="edu-level">College</div>
             <div className="edu-details">

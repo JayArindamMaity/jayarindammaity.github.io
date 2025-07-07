@@ -16,3 +16,13 @@
   margin-top: 20px;
   font-size: larger;
 }
+
+.ach-all-certs {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 15px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(252, 202, 138) transparent;
+  position: relative;
+}
