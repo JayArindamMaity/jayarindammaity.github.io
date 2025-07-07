@@ -1,0 +1,8 @@
+.drink-link {
+  color: rgb(252, 202, 138);
+  transition: color 0.5s ease-in-out;
+}
+
+.drink-link:hover {
+    color: antiquewhite;
+}

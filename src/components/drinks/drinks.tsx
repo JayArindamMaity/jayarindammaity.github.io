@@ -18,7 +18,7 @@ const Drinks: React.FC<DrinksProps> = ({ drinks }) => {
         <div className="drink-main" key={index}>
           <ul>
             <li>
-              <Link to={`/recipes/${drink.name}`}>{drink.name}:</Link> : {drink.desc}
+              <Link to={`/recipes/${drink.name}`} className="drink-link">{drink.name}:</Link> : {drink.desc}
             </li>
           </ul>
         </div>
