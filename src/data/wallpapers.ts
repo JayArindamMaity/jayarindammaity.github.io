@@ -65,6 +65,11 @@ export const wallpapers = [
     imageUrl: "/wallpapers/chomusuke.png",
     downloadName: "chomusuke",
   },
+  {
+    title: "kindred",
+    imageUrl: "/wallpapers/kindred.jpeg",
+    downloadName: "kindred",
+  },
   //   {
   //     title: "",
   //     imageUrl: "/wallpapers/",
