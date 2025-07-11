@@ -2,6 +2,11 @@ const featured_cert = [
   {
     name: "",
     issuedate: "",
+    issuedby: "",
+    certimg: "",
+    certdesc: "",
+    certlink: "",
+    downloadname: ""
   },
 ];
 
