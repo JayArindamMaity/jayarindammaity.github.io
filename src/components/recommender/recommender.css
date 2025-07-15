@@ -63,7 +63,7 @@
   background: black;
   color: antiquewhite;
   border-radius: 12px;
-  /* border: 1px solid antiquewhite; */
+  border: 1px solid antiquewhite;
   padding: 1.25rem 1.5rem;
   display: flex;
   flex-direction: column;

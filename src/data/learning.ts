@@ -68,6 +68,12 @@ const good_git_repos = [
     repodesc: "This repo has a bunch of links that will guide you to make really cool projects",
     repolink: "https://github.com/codecrafters-io/build-your-own-x",
   }
+
+//   {
+//     reponame: "",
+//     repodesc: "",
+//     repoling: "",
+//   },
 ]
 
 export { suggest_books, learning_data, youtube_learn_vids , good_git_repos  };
