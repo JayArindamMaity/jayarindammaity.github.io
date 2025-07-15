@@ -2,7 +2,6 @@ const suggest_books = [
   {
     name: "Practical Electronics for Inventors",
   },
-
 ];
 
 // ---------------------- this is the sample template for inserting data into the learning data component
@@ -54,7 +53,6 @@ const youtube_learn_vids = [
   },
 ];
 
-
 // this is the sample data for some good and suggested repositories XD
 //   {
 //     reponame: "",
@@ -65,15 +63,15 @@ const youtube_learn_vids = [
 const good_git_repos = [
   {
     reponame: "Build Your Own X",
-    repodesc: "This repo has a bunch of links that will guide you to make really cool projects",
+    repodesc:
+      "This repo has a bunch of links that will guide you to make really cool projects",
     repolink: "https://github.com/codecrafters-io/build-your-own-x",
-  }
+  },
+  {
+    reponame: "Awesome",
+    repodesc: "This repo should have almost everything that you might need to learning anything related to computer science and more",
+    repoling: "https://github.com/sindresorhus/awesome",
+  },
+];
 
-//   {
-//     reponame: "",
-//     repodesc: "",
-//     repoling: "",
-//   },
-]
-
-export { suggest_books, learning_data, youtube_learn_vids , good_git_repos  };
+export { suggest_books, learning_data, youtube_learn_vids, good_git_repos };

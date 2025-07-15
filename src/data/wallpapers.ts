@@ -70,6 +70,11 @@ export const wallpapers = [
     imageUrl: "/wallpapers/kindred.jpeg",
     downloadName: "kindred",
   },
+  {
+    title: "fubuki",
+    imageUrl: "/wallpapers/fubuki.png",
+    downloadName: "fubuki",
+  },
   //   {
   //     title: "",
   //     imageUrl: "/wallpapers/",
