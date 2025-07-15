@@ -1,0 +1,33 @@
+.feat-main {
+  margin-top: 20px;
+  margin-left: 20px;
+  max-width: 55vw;
+  text-align: right;
+  font-size: larger;
+}
+
+.cert-card {
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+  border: 1px solid rgb(252, 202, 138);
+  border-radius: 12px;
+}
+
+.cert-heading {
+    color: rgb(252, 202, 138);
+}
+.cert-image {
+  max-width: 400px;
+}
+
+.cert-buttons {
+  color: antiquewhite;
+  margin-left: 10px;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.cert-buttons:hover {
+    color: rgb(252, 202, 138);
+}

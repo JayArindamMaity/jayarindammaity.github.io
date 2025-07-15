@@ -1,6 +1,8 @@
 import "./achievements.css";
 import Allcertificates from "../../components/certificates/certificates";
 import { all_certificates } from "../../data/achievements";
+import Featuredcerts from "../../components/featuredcerts/featuredcerts";
+import { featured_cert } from "../../data/achievements";
 
 interface Certificate {
   name: string;
@@ -56,6 +58,7 @@ export default function CertificatesPage() {
         <div className="ach-content">
           These are some of the best certifications that I have, most of them are technical and showcases my ability to deal with various technical challenges. 
         </div>
+        <Featuredcerts certs={featured_cert} />
       </div>
 
       <div className="ach-heading">All Certificates</div>

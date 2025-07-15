@@ -1,12 +1,21 @@
 const featured_cert = [
   {
-    name: "",
-    issuedate: "",
-    issuedby: "",
-    certimg: "",
-    certdesc: "",
-    certlink: "",
-    downloadname: ""
+    name: "IBM Machine Learning",
+    issuedate: "March 13, 2025",
+    issuedby: "IBM",
+    certimg: "/certificates/courseraibmmachine.jpg",
+    certdesc: "This certification is to prove my expertise in different Machine Learning techniques and my capibility to implement them",
+    certlink: "https://www.coursera.org/account/accomplishments/professional-cert/DHGKK6AXY5AO",
+    downloadname: "Jay's IBM Machine Learning Certificate",
+  },
+  {
+    name: "Leading People and Teams",
+    issuedate: "September 13, 2023",
+    issuedby: "University of Michigan",
+    certimg: "/certificates/leadingpeopleandteams.jpg",
+    certdesc: "This is another good certificate that taught me some really good communication skills along with how to manage and deal with people in adequate manner",
+    certlink: "https://www.coursera.org/account/accomplishments/specialization/9KESM4RSXQK5",
+    downloadname: "Jay's Leading People and Teams Certificate",
   },
 ];
 
