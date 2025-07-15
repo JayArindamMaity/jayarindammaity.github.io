@@ -70,7 +70,7 @@ const good_git_repos = [
   {
     reponame: "Awesome",
     repodesc: "This repo should have almost everything that you might need to learning anything related to computer science and more",
-    repoling: "https://github.com/sindresorhus/awesome",
+    repolink: "https://github.com/sindresorhus/awesome",
   },
 ];
 
