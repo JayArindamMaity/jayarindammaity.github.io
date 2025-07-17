@@ -57,7 +57,7 @@ const youtube_learn_vids = [
 //   {
 //     reponame: "",
 //     repodesc: "",
-//     repoling: "",
+//     repolink: "",
 //   }
 
 const good_git_repos = [
@@ -69,8 +69,14 @@ const good_git_repos = [
   },
   {
     reponame: "Awesome",
-    repodesc: "This repo should have almost everything that you might need to learning anything related to computer science and more",
+    repodesc:
+      "This repo should have almost everything that you might need to learning anything related to computer science and more",
     repolink: "https://github.com/sindresorhus/awesome",
+  },
+  {
+    reponame: "Free Programming Books",
+    repodesc: "This is another repository where you can find some really good content in text format to learn new things",
+    repolink: "https://github.com/EbookFoundation/free-programming-books",
   },
 ];
 
