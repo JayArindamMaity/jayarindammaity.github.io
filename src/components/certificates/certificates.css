@@ -3,6 +3,7 @@
   justify-content: space-between;
   gap: 10vw;
   color: antiquewhite;
+  font-family: "mycustomfont", sans-serif;
   font-size: larger;
 }
 

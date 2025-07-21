@@ -4,6 +4,7 @@
   align-items: center;
   padding: 3rem 5rem;
   width: 100%;
+  font-family: "mycustomfont", sans-serif;
   position: fixed;
   top: 0;
   background: linear-gradient(

@@ -1,25 +1,27 @@
 .contact-main {
-    color: antiquewhite;
+  color: antiquewhite;
+  font-family: "mycustomfont", sans-serif;
 }
 
 .contact-heading {
-    text-decoration: underline;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-size: xx-large;
-    color: rgb(252, 202, 138);
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  color: rgb(252, 202, 138);
 }
 
 .contact-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5vh;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh;
+  justify-content: space-between;
 }
 
 .custom-toast {
   background-color: black !important;
   color: antiquewhite !important;
+  font-family: "mycustomfont", sans-serif !important;
   border-radius: 5px;
   border: 1px solid antiquewhite;
 }
@@ -37,77 +39,78 @@
 }
 
 .contact-form {
-    flex: 1;
-    min-width: 280px;
-    max-width: 400px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
 }
 
 .contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .contact-form label {
-    font-weight: bold;
-    color: antiquewhite;
+  font-weight: bold;
+  color: antiquewhite;
 }
 
 .contact-form input,
 .contact-form textarea {
-    padding: 10px;
-    border: 1px solid antiquewhite;
-    border-radius: 5px;
-    background-color: black;
-    color: antiquewhite;
-    resize: none;
+  padding: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+  background-color: black;
+  color: antiquewhite;
+  resize: none;
 }
 
 .contact-form button {
-    background-color: black;
-    color: antiquewhite;
-    border: 1px solid antiquewhite;
-    padding: 10px 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  background-color: black;
+  color: antiquewhite;
+  font-family: "mycustomfont", sans-serif;
+  border: 1px solid antiquewhite;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .contact-form button:hover {
-    background-color: rgb(252, 202, 138);
-    color: black;
+  background-color: rgb(252, 202, 138);
+  color: black;
 }
 
 .contact-eles {
-    flex: 1;
-    min-width: 250px;
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .contact-words {
-    margin-top: 30px;
-    font-size: larger;
+  margin-top: 30px;
+  font-size: larger;
 }
 
 .contact-icons {
-    display: flex;
-    gap: 5vh;
-    font-size: 1.5rem;
-    justify-content: space-between;
+  display: flex;
+  gap: 5vh;
+  font-size: 1.5rem;
+  justify-content: space-between;
 }
 
 .contact-icons a {
-    color: antiquewhite;
-    transition: color 0.2s ease-in-out, transform;
-    text-decoration: none;
+  color: antiquewhite;
+  transition: color 0.2s ease-in-out, transform;
+  text-decoration: none;
 }
 
 .contact-icons a:hover {
-    transform: translateY(-4px);
-    color: rgb(252, 202, 138);
+  transform: translateY(-4px);
+  color: rgb(252, 202, 138);
 }
