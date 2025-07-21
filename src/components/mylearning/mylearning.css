@@ -1,6 +1,7 @@
 .learning-wrapper {
   margin-top: 40px;
   color: rgb(252, 202, 138);
+  font-family: "mycustomfont", sans-serif;
 }
 
 .learning-grid {
@@ -14,6 +15,7 @@
   border: 1px solid antiquewhite;
   background-color: black;
   padding: 16px;
+  font-family: "mycustomfont", sans-serif;
   border-radius: 12px;
   transition: transform 0.5s;
 }
@@ -25,12 +27,14 @@
 
 .learning-topic-title {
   font-size: 18px;
+  font-family: "mycustomfont", sans-serif;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
 .learning-resources-label {
   font-size: 14px;
+  font-family: "mycustomfont", sans-serif;
   margin-bottom: 6px;
   color: antiquewhite;
 }
@@ -46,6 +50,7 @@
   padding: 4px 10px;
   border-radius: 999px;
   font-size: 13px;
+  font-family: "mycustomfont", sans-serif;
   color: antiquewhite;
   border: 1px solid rgba(252, 203, 138, 0.5);
   text-decoration: none;

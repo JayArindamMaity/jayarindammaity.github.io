@@ -6,6 +6,7 @@
   transition: transform 0.5s ease-in-out;
   display: block;
   font-size: larger;
+  font-family: "mycustomfont", sans-serif;
 }
 
 .v-head {
@@ -18,12 +19,14 @@
   margin-bottom: 10px;
   color: rgb(252, 202, 138);
   text-decoration: underline;
+  font-family: "mycustomfont", sans-serif;
 }
 
 .v-link {
   color: antiquewhite;
   text-decoration: none;
   transition: color 0.5s ease-in-out;
+  font-family: "mycustomfont", sans-serif;
 }
 
 .v-link:hover {
