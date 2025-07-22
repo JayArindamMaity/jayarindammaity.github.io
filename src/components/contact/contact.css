@@ -1,5 +1,5 @@
 .contact-main {
-  color: antiquewhite;
+  color: var(--primary-color);
   font-family: "mycustomfont", sans-serif;
 }
 
@@ -8,7 +8,7 @@
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: xx-large;
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 
 .contact-content {
@@ -19,22 +19,22 @@
 }
 
 .custom-toast {
-  background-color: black !important;
-  color: antiquewhite !important;
+  background-color:var(--background-color) !important;
+  color: var(--text-color) !important;
   font-family: "mycustomfont", sans-serif !important;
   border-radius: 5px;
-  border: 1px solid antiquewhite;
+  border: 1px solid var(--text-color);
 }
 
 .Toastify__toast--success .Toastify__toast-icon {
   svg {
-    fill: rgb(252, 202, 138) !important;
+    fill: var(--primary-color) !important;
   }
 }
 
 .Toastify__toast--error .Toastify__toast-icon {
   svg {
-    fill: rgb(252, 202, 138) !important;
+    fill: var(--primary-color) !important;
   }
 }
 
@@ -52,34 +52,34 @@
 
 .contact-form label {
   font-weight: bold;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 
 .contact-form input,
 .contact-form textarea {
   padding: 10px;
-  border: 1px solid antiquewhite;
+  border: 1px solid var(--text-color);
   border-radius: 5px;
-  background-color: black;
-  color: antiquewhite;
+  background-color: var(--background-color);
+  color: var(--text-color);
   resize: none;
 }
 
 .contact-form button {
-  background-color: black;
-  color: antiquewhite;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-family: "mycustomfont", sans-serif;
-  border: 1px solid antiquewhite;
+  font-size: large;
+  border: 1px solid var(--text-color);
   padding: 10px 20px;
-  font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .contact-form button:hover {
-  background-color: rgb(252, 202, 138);
-  color: black;
+  background-color: var(--primary-color);
+  color: var(--background-color);
 }
 
 .contact-eles {
@@ -105,12 +105,12 @@
 }
 
 .contact-icons a {
-  color: antiquewhite;
-  transition: color 0.2s ease-in-out, transform;
+  color: var(--text-color);
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
   text-decoration: none;
 }
 
 .contact-icons a:hover {
   transform: translateY(-4px);
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
