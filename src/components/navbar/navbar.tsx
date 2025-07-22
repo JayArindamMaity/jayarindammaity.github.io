@@ -6,11 +6,25 @@ import {
   BookA,
   Gamepad2,
   Pizza,
-  // PenBox,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
+const themes = [
+  { id: "theme-default", color: "#F49939" },
+  { id: "theme-forest", color: "#2ecc71" },
+  // add more themes here
+];
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
+  const switchTheme = (themeId: string) => {
+    document.body.className = ""; // Clear any existing themes
+    document.body.classList.add(themeId);
+    setOpen(false);
+  };
+
   return (
     <div className="nav-container">
       <div className="nav-main">
@@ -44,13 +58,6 @@ export default function Navbar() {
                 </span>
               </Link>
             </li>
-            {/* <li>
-              <Link to="/blog">
-                <span className="tooltip" data-tooltip="My Blog">
-                  <PenBox />
-                </span>
-              </Link>
-            </li> */}
             <li>
               <Link to="/entertainment">
                 <span className="tooltip" data-tooltip="Entertainment">
@@ -64,6 +71,21 @@ export default function Navbar() {
                   <Pizza />
                 </span>
               </Link>
+            </li>
+            <li className="theme-toggle">
+              <div className="theme-button" onClick={() => setOpen(!open)} />
+              {open && (
+                <div className="theme-dropdown">
+                  {themes.map((theme) => (
+                    <div
+                      key={theme.id}
+                      className="theme-circle"
+                      style={{ backgroundColor: theme.color }}
+                      onClick={() => switchTheme(theme.id)}
+                    />
+                  ))}
+                </div>
+              )}
             </li>
           </ul>
         </div>

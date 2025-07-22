@@ -1,7 +1,7 @@
 .home-main {
   margin-top: 15vh;
   padding-bottom: 10vh;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 
 .home-content {
@@ -16,14 +16,14 @@
   margin-bottom: 20px;
   font-size: xx-large;
   font-family: "mycustomfont", sans-serif;
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 
 .section-title {
   font-size: larger;
   font-weight: 600;
   font-family: "mycustomfont", sans-serif;
-  border-bottom: 2px solid antiquewhite;
+  border-bottom: 2px solid var(--text-color);
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -36,7 +36,7 @@
   font-size: larger;
   font-weight: 500;
   font-family: "mycustomfont", sans-serif;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 
 .edu-details {
@@ -46,7 +46,7 @@
   font-size: 16px;
   font-family: "mycustomfont", sans-serif;
   margin-top: 5px;
-  border-bottom: 1px dashed rgba(252, 203, 138, 0.685);
+  border-bottom: 1px dashed var(--primary-color);
   padding-bottom: 5px;
   color: antiquewhite;
 }
@@ -54,11 +54,11 @@
 .edu-score {
   font-weight: 600;
   font-family: "mycustomfont", sans-serif;
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 
 .learning-chead {
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
   display: flex;
   gap: 20vw;
   font-size: x-large;

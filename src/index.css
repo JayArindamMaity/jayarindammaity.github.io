@@ -5,10 +5,20 @@
   font-style: normal;
 }
 
-body {
-  background-color: black;
+:root {
+  --background-color: #000000;
+  --text-color: #FAEBD7;
+  --primary-color: #F49939;
+}
 
-  color: antiquewhite;
+.theme-forest {
+  --background-color: red;
+  --text-color: #d5f3e7;
+  --primary-color: #2ecc71;
+}
+
+body {
+  background-color: var(--background-color);
   margin: 0;
   padding: 0;
 }
