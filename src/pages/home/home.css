@@ -48,7 +48,7 @@
   margin-top: 5px;
   border-bottom: 1px dashed var(--primary-color);
   padding-bottom: 5px;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 
 .edu-score {

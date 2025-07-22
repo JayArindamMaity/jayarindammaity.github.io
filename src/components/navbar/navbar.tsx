@@ -12,7 +12,7 @@ import { useState } from "react";
 
 const themes = [
   { id: "theme-default", color: "#F49939" },
-  { id: "theme-forest", color: "#2ecc71" },
+  { id: "theme-pastel-blue", color: "#799EFF" },
   // add more themes here
 ];
 
@@ -20,7 +20,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const switchTheme = (themeId: string) => {
-    document.body.className = ""; // Clear any existing themes
+    document.body.className = "";
     document.body.classList.add(themeId);
     setOpen(false);
   };

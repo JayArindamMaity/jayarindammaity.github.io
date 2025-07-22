@@ -11,10 +11,10 @@
   --text-color: #faebd7;
 }
 
-.theme-forest {
-  --primary-color: #2ecc71;
-  --background-color: red;
-  --text-color: #d5f3e7;
+.theme-pastel-blue {
+  --primary-color: #799EFF;
+  --background-color: #FEFFC4;
+  --text-color: #FFBC4C;
 }
 
 body {
