@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'mycustomfont';
-  src: url('../public/fonts/Jersey25-Regular.ttf') format("truetype");
+  font-family: "mycustomfont";
+  src: url("../public/fonts/Jersey25-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 :root {
+  --primary-color: #f49939;
   --background-color: #000000;
-  --text-color: #FAEBD7;
-  --primary-color: #F49939;
+  --text-color: #faebd7;
 }
 
 .theme-forest {
+  --primary-color: #2ecc71;
   --background-color: red;
   --text-color: #d5f3e7;
-  --primary-color: #2ecc71;
 }
 
 body {
