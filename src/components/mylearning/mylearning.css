@@ -1,6 +1,6 @@
 .learning-wrapper {
   margin-top: 40px;
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
   font-family: "mycustomfont", sans-serif;
 }
 
@@ -12,8 +12,8 @@
 }
 
 .learning-card {
-  border: 1px solid antiquewhite;
-  background-color: black;
+  border: 1px solid var(--text-color);
+  background-color: var(--background-color);
   padding: 16px;
   font-family: "mycustomfont", sans-serif;
   border-radius: 12px;
@@ -22,7 +22,7 @@
 
 .learning-card:hover {
   transform: translateY(-4px);
-  border-color: rgb(252, 202, 138);
+  border-color: var(--primary-color);
 }
 
 .learning-topic-title {
@@ -36,7 +36,7 @@
   font-size: 14px;
   font-family: "mycustomfont", sans-serif;
   margin-bottom: 6px;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 
 .learning-resource-tags {
@@ -46,12 +46,12 @@
 }
 
 .resource-pill {
-  background-color: black;
+  background-color: var(--background-color);
   padding: 4px 10px;
   border-radius: 999px;
   font-size: 13px;
   font-family: "mycustomfont", sans-serif;
-  color: antiquewhite;
-  border: 1px solid rgba(252, 203, 138, 0.5);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
   text-decoration: none;
 }
