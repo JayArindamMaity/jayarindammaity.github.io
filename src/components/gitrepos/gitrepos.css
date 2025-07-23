@@ -4,9 +4,9 @@
 
 .repo-button {
   /* font-size: x-large; */
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 
 .repo-button:hover {
-  color: antiquewhite;
+  color: var(--text-color);
 }
