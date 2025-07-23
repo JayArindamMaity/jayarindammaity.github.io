@@ -12,7 +12,10 @@ import { useState } from "react";
 
 const themes = [
   { id: "theme-default", color: "#F49939" },
-  { id: "theme-pastel-blue", color: "#799EFF" },
+  { id: "theme-purple", color: "#B13BFF" },
+  { id: "theme-pink" , color: "#FF0B55"},
+  { id: "theme-pastel-purple" , color: "#C5BAFF"},
+  { id: "theme-forest" , color: "#118B50"}
   // add more themes here
 ];
 

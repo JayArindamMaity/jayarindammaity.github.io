@@ -11,10 +11,28 @@
   --text-color: #faebd7;
 }
 
-.theme-pastel-blue {
-  --primary-color: #799EFF;
-  --background-color: #FEFFC4;
-  --text-color: #FFBC4C;
+.theme-purple {
+  --primary-color: #B13BFF;
+  --background-color: #090040;
+  --text-color: #FFCC00;
+}
+
+.theme-pink {
+  --primary-color: #FF0B55;
+  --background-color: #000000;
+  --text-color: #FFDEDE;
+}
+
+.theme-pastel-purple {
+  --primary-color: #9AA6B2;
+  --background-color: #F8FAFC;
+  --text-color: #BCCCDC;
+}
+
+.theme-forest {
+  --primary-color: #118B50;
+  --background-color: #FBF6E9;
+  --text-color: #5DB996;
 }
 
 body {
