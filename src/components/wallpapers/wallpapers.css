@@ -8,13 +8,13 @@
   flex-wrap: wrap;
   font-size: 16px;
   margin-top: 5px;
-  border-bottom: 1px dashed rgba(252, 203, 138, 0.685);
+  border-bottom: 1px dashed var(--primary-color);
   padding-bottom: 5px;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 
 .wall-button {
-  color: antiquewhite;
+  color: var(--text-color);
   margin-left: 10px;
   display: inline-block;
   cursor: pointer;
@@ -23,7 +23,7 @@
 
 .wall-button:hover {
   transform: translateY(-4px);
-  color: rgb(252, 203, 138);
+  color: var(--primary-color);
 }
 
 .modal-overlay {
@@ -55,8 +55,8 @@
   position: absolute;
   top: -10px;
   right: -10px;
-  background: black;
-  color: antiquewhite;
+  background: var(--background-color);
+  color: var(--primary-color);
   border: none;
   font-size: 24px;
   width: 36px;

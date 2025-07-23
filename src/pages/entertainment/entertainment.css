@@ -1,7 +1,7 @@
 .e-main {
   margin-top: 15vh;
   padding-bottom: 10vh;
-  color: antiquewhite;
+  color: var(--text-color);
   font-family: "mycustomfont", sans-serif;
   font-size: larger;
 }
@@ -12,7 +12,7 @@
   margin-bottom: 20px;
   font-size: xx-large;
   font-family: "mycustomfont", sans-serif;
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 
 .wall-grid {
