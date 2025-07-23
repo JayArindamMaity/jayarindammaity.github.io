@@ -1,7 +1,7 @@
 .ach-main {
   margin-top: 15vh;
   padding-bottom: 10vh;
-  color: antiquewhite;
+  color: var(--text-color);
   font-family: "mycustomfont", sans-serif;
 }
 
@@ -10,7 +10,7 @@
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: xx-large;
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 
 .ach-content {
@@ -24,6 +24,6 @@
   padding-right: 15px;
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: rgb(252, 202, 138) transparent;
+  scrollbar-color: var(--primary-color) transparent;
   position: relative;
 }

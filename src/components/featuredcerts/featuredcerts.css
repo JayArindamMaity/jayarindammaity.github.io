@@ -10,24 +10,30 @@
   padding: 20px;
   display: flex;
   gap: 25px;
-  border: 1px solid rgb(252, 202, 138);
+  border: 1px solid var(--primary-color);
   border-radius: 12px;
 }
 
 .cert-heading {
-    color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 .cert-image {
   max-width: 400px;
 }
 
 .cert-buttons {
-  color: antiquewhite;
+  color: var(--text-color);
   margin-left: 10px;
   font-size: 18px;
   transition: color 0.3s ease-in-out;
 }
 
 .cert-buttons:hover {
-    color: rgb(252, 202, 138);
+  color: var(--primary-color);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: var(--primary-color);
 }

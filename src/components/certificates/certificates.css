@@ -2,19 +2,19 @@
   display: flex;
   justify-content: space-between;
   gap: 10vw;
-  color: antiquewhite;
+  color: var(--text-color);
   font-family: "mycustomfont", sans-serif;
   font-size: larger;
 }
 
 .cert-button {
   text-decoration: none;
-  color: rgb(252, 202, 138);
+  color:var(--primary-color);
   display: block;
   transition: transform 0.2s ease-in-out;
 }
 
 .cert-button:hover {
   transform: translateY(-3px);
-  color: antiquewhite;
+  color: var(--text-color);
 }
