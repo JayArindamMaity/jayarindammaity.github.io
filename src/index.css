@@ -17,10 +17,16 @@
   --text-color: #FFCC00;
 }
 
+.theme-navy{
+  --primary-color: #818FB4;
+  --background-color: #363062;
+  --text-color: #F5E8C7;
+}
+
 .theme-pink {
-  --primary-color: #FF0B55;
-  --background-color: #000000;
-  --text-color: #FFDEDE;
+  --primary-color: #F564A9;
+  --background-color: #533B4D;
+  --text-color: #FAE3C6;
 }
 
 .theme-pastel-purple {
