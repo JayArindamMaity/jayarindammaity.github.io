@@ -2,7 +2,7 @@
   margin-top: 15vh;
   padding-bottom: 10vh;
   font-family: "mycustomfont", sans-serif;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 
 .l-heading {
@@ -11,7 +11,7 @@
   margin-bottom: 20px;
   font-size: xx-large;
   font-family: "mycustomfont", sans-serif;
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
 
 .l-content {
@@ -25,5 +25,5 @@
 }
 
 .l-button {
-  color: rgb(252, 202, 138);
+  color: var(--primary-color);
 }
