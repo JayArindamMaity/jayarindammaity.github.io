@@ -29,6 +29,12 @@
   --text-color: #FAE3C6;
 }
 
+.theme-pink-light {
+  --primary-color: #F7418F;
+  --background-color: #FFF3C7;
+  --text-color: #FC819E;
+}
+
 .theme-forest {
   --primary-color: #118B50;
   --background-color: #FBF6E9;
