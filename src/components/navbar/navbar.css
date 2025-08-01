@@ -147,6 +147,13 @@
   .nav-main {
     justify-content: flex-end;
     padding: 1rem;
+    height: 10vh;
+    background: linear-gradient(
+      to bottom,
+      var(--background-color) 0%,
+      var(--background-color) 50%,
+      transparent 100%
+    );
   }
 
   .nav-main .nav-items ul {
