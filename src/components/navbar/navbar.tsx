@@ -8,6 +8,7 @@ const themes = [
   { id: "theme-purple", color: "#B13BFF" },
   { id: "theme-navy", color: "#818FB4" },
   { id: "theme-pink", color: "#E90064" },
+  { id: "theme-coffee" , color: "#D5CEA3"}
 ];
 
 export default function Navbar() {

@@ -29,6 +29,12 @@
   --text-color: #FAE3C6;
 }
 
+.theme-coffee {
+  --primary-color: #D5CEA3;
+  --background-color: #1A120B;
+  --text-color: #E5E5CB;
+}
+
 body {
   background-color: var(--background-color);
   margin: 0;
