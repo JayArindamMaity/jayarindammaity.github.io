@@ -1,38 +1,42 @@
 import "./navbar.css";
-import {
-  House,
-  Award,
-  AppWindow,
-  BookA,
-  Gamepad2,
-  Pizza,
-} from "lucide-react";
+import { House, Award, AppWindow, BookA, Gamepad2, Pizza } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const themes = [
   { id: "theme-default", color: "#F49939" },
   { id: "theme-purple", color: "#B13BFF" },
-  { id: "theme-navy" , color: "#818FB4"},
-  { id: "theme-pink" , color: "#E90064"},
-  { id: "theme-forest" , color: "#118B50"},
-  { id: "theme-pink-light" , color: "#F7418F"}
-  // add more themes here
+  { id: "theme-navy", color: "#818FB4" },
+  { id: "theme-pink", color: "#E90064" },
+  { id: "theme-pink-light", color: "#F7418F" },
+  { id: "theme-forest", color: "#118B50" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [themeOpen, setThemeOpen] = useState(false);
 
   const switchTheme = (themeId: string) => {
     document.body.className = "";
     document.body.classList.add(themeId);
-    setOpen(false);
+    setThemeOpen(false);
   };
 
   return (
     <div className="nav-container">
-      <div className="nav-main">
+      <div className={`nav-main ${open ? "open" : ""}`}>
         <div className="nav-items">
+          {!open && (
+            <button className="hamburger-button" onClick={() => setOpen(true)}>
+              ☰
+            </button>
+          )}
+          {open && (
+            <button className="exit-button" onClick={() => setOpen(false)}>
+              ✕
+            </button>
+          )}
+
           <ul>
             <li>
               <Link to="/">
@@ -77,8 +81,11 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="theme-toggle">
-              <div className="theme-button" onClick={() => setOpen(!open)} />
-              {open && (
+              <div
+                className="theme-button"
+                onClick={() => setThemeOpen(!themeOpen)}
+              />
+              {themeOpen && (
                 <div className="theme-dropdown">
                   {themes.map((theme) => (
                     <div
