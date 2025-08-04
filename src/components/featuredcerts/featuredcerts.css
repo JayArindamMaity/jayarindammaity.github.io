@@ -1,35 +1,68 @@
 .feat-main {
-  margin-top: 20px;
-  margin-left: 20px;
-  max-width: 55vw;
-  text-align: right;
-  font-size: larger;
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 16px;
 }
 
 .cert-card {
   padding: 20px;
   display: flex;
+  flex-direction: row;
   gap: 25px;
   border: 1px solid var(--primary-color);
   border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.cert-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cert-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cert-heading {
   color: var(--primary-color);
 }
-.cert-image {
-  max-width: 400px;
-}
 
 .cert-buttons {
   color: var(--text-color);
-  margin-left: 10px;
+  margin-right: 10px;
   font-size: 18px;
   transition: color 0.3s ease-in-out;
 }
 
 .cert-buttons:hover {
   color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cert-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cert-info {
+    align-items: center;
+  }
+
+  .cert-buttons {
+    margin: 10px 5px;
+  }
+
+  .feat-main {
+    font-size: medium;
+  }
 }
 
 .slick-prev:before,

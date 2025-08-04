@@ -29,6 +29,22 @@ const Featuredcerts: React.FC<FeaturedCertProps> = ({ certs }) => {
     arrows: true,
     autoplay: true,
     autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          speed: 600,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   };
 
   return (
@@ -47,17 +63,21 @@ const Featuredcerts: React.FC<FeaturedCertProps> = ({ certs }) => {
                 <p>
                   <strong>Date:</strong> {cert.issuedate}
                 </p>
-                  <a
-                    href={cert.certlink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="cert-buttons"
-                  >
-                    <FaEye />
-                  </a>
-                  <a href={cert.certimg} download={cert.downloadname} className="cert-buttons">
-                    <FaDownload />
-                  </a>
+                <a
+                  href={cert.certlink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cert-buttons"
+                >
+                  <FaEye />
+                </a>
+                <a
+                  href={cert.certimg}
+                  download={cert.downloadname}
+                  className="cert-buttons"
+                >
+                  <FaDownload />
+                </a>
               </div>
             </div>
           </div>
