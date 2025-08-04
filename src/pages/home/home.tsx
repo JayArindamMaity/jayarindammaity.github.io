@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="home-main">
+
         <div className="content-heading">Hello!</div>
         <div className="home-content">
           I'm Jay Aridndam Maity a curious mind who loves building things —
@@ -31,6 +32,8 @@ export default function Home() {
             </li>
           </ul>
         </div>
+
+
 
         <div className="education">
           <div className="content-heading">My Education 🎓</div>
