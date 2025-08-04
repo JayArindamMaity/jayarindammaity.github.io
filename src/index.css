@@ -35,12 +35,6 @@
   --text-color: #f5c7a9;
 }
 
-.theme-blood {
-  --primary-color: #FF0000;
-  --background-color: #000000;
-  --text-color: #950101;
-}
-
 .theme-coffee {
   --primary-color: #d5cea3;
   --background-color: #1a120b;

@@ -9,7 +9,6 @@ const themes = [
   { id: "theme-navy", color: "#818FB4" },
   { id: "theme-pink", color: "#E90064" },
   { id: "theme-warm-purple", color: "#D1512D" },
-  { id: "theme-blood" , color: "#950101"}, // <-- idk why i have this theme might as well remove it after sometime
   { id: "theme-coffee", color: "#D5CEA3" },
 ];
 
