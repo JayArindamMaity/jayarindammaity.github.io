@@ -131,67 +131,67 @@ const movies: Movie[] = [
   {
     movie: "Interstellar",
     director: "Christoper Nolan",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/70305903",
   },
   {
     movie: "How to Train Your Dragon",
     director: "Chris Sanders",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/70109893",
   },
   {
     movie: "Train to Busan",
     director: "Yeon Sang-Ho",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/80117824",
   },
   {
     movie: "Kung Fu Panda",
     director: "Mark Osborne",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/70075480",
   },
   {
     movie: "John Wick",
     director: "Chad Stahelski",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/80013762",
   },
   {
     movie: "The Dark Knight",
     director: "Christoper Nolan",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/70079583",
   },
   {
     movie: "Oppenheimer",
     director: "Christoper Nolan",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/81602830",
   },
   {
     movie: "Green Book",
     director: "Peter Farelly",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/hm/title/81013585",
   },
   {
     movie: "La La Land",
     director: "Damien Chazelle",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/80095365",
   },
   {
     movie: "The Conjuring",
     director: "James wan",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/70251894",
   },
   {
     movie: "Dune",
     director: "Denis Villeneuve",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/81199139",
   },
   {
     movie: "The Social Network",
     director: "David Fincher",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/70132721",
   },
   {
     movie: "Wiplash",
     director: "David Fincher",
-    watchlink: "",
+    watchlink: "https://www.netflix.com/in/title/70299275",
   },
 ];
 

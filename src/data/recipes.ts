@@ -34,7 +34,7 @@ const drinks = [
       "Stir well and chill.",
       "Serve cold.",
     ],
-    ps: "You can use premixes that might be available online or at your local store. And for the sake of humanity don't add ketchup to it. 😅F"
+    ps: "You can use premixes that might be available online or at your local store. And for the sake of humanity don't add ketchup to it. 😅"
   },
   {
     name: "Buttermilk",
@@ -48,7 +48,7 @@ const drinks = [
       "Stir in salt, optionally along with pepper.",
       "Serve chilled.",
     ],
-    ps: "Don't add ice cubes and definitel not ketchup or jam. (really!!! don't)"
+    ps: "Don't add ice cubes and definitely not ketchup or jam. (really!!! don't)"
   },
 ];
 
