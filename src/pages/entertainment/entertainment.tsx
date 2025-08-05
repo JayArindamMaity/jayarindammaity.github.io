@@ -39,7 +39,9 @@ export default function Entertainment() {
             <br />
             Besides that you can also enjoy other anime and shows that I have
             listed below (I'm sure you won't regret doing so) 😊
-            <br /><br />Here is the list I promised XD:
+            <br />
+            <br />
+            Here is the list I promised XD:
           </div>
           <div className="e-content">
             <ul>
@@ -57,6 +59,34 @@ export default function Entertainment() {
               <li>Juijitsu Kaisen</li>
               <li>One Punch Man</li>
               <li>Demon Slayer</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="e-songs">
+          <div className="e-heading">
+            My top favourite songs at the moment ranked:
+          </div>
+          <div className="e-content">
+            Everyone has favourite songs and its no suprise that I have a few of
+            them as well...
+            <br />
+            You might have heard about some of them and if not give them a try I
+            hope that you will like them XD
+          </div>
+          <div className="e-content">
+            <ul>
+              <li>Smells Like Teen Spirit - Nirvana</li>
+              <li>Slipping - Cryoshell</li>
+              <li>Traust - Heilung</li>
+              <li>Nesso - Heilung</li>
+              <li>Suzzane - Leonard Cohen</li>
+              <li>Dreams - Fleetwood Mac</li>
+              <li>Nothing Else Matters - Metallica</li>
+              <li>So Far Away - Avenged Sevelfold</li>
+              <li>Buried Alive - Avenged Sevenfold</li>
+              <li>Symphonia IX - Grimes</li>
+              <li>Bring me To Life - Evanescence</li>
             </ul>
           </div>
         </div>
