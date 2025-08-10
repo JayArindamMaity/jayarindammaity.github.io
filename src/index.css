@@ -6,15 +6,15 @@
 }
 
 :root {
-  --primary-color: #f49939;
   --background-color: #000000;
-  --text-color: #faebd7;
+  --primary-color: #8E1616;
+  --text-color: #E8C999;
 }
 
-.theme-purple {
-  --primary-color: #b13bff;
-  --background-color: #090040;
-  --text-color: #ffcc00;
+.theme-retro-maroon {
+  --background-color: #FBDB93;
+  --primary-color: #641B2E;
+  --text-color: #BE5B50;
 }
 
 .theme-navy {
@@ -35,11 +35,32 @@
   --text-color: #f5c7a9;
 }
 
-.theme-coffee {
+
+/* 
+this is the previous root theme that i was using XD
+:root {
+  --primary-color: #f49939;
+  --background-color: #000000;
+  --text-color: #faebd7;
+}
+*/
+
+/* ------- these are some of the removed themes 
+  they are removed because they might have been a little not what i want T_T
+  still they are not entirely not that bad XD
+*/
+/* .theme-coffee {
   --primary-color: #d5cea3;
   --background-color: #1a120b;
   --text-color: #e5e5cb;
-}
+} */
+
+/* .theme-purple {
+  --primary-color: #b13bff;
+  --background-color: #090040;
+  --text-color: #ffcc00;
+} */
+
 
 body {
   background-color: var(--background-color);

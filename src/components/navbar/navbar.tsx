@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const themes = [
-  { id: "theme-default", color: "#F49939" },
-  { id: "theme-purple", color: "#B13BFF" },
+  { id: "theme-default", color: "#8E1616" },
   { id: "theme-navy", color: "#818FB4" },
   { id: "theme-pink", color: "#E90064" },
   { id: "theme-warm-purple", color: "#D1512D" },
-  { id: "theme-coffee", color: "#D5CEA3" },
+  { id: "theme-retro-maroon", color: "#641B2E" },
 ];
 
 export default function Navbar() {
