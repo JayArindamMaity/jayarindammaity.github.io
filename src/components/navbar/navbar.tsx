@@ -5,10 +5,12 @@ import { useState } from "react";
 
 const themes = [
   { id: "theme-default", color: "#8E1616" },
-  { id: "theme-navy", color: "#818FB4" },
-  { id: "theme-pink", color: "#E90064" },
+  { id: "theme-grey-red" , color: "#D72323" },
   { id: "theme-warm-purple", color: "#D1512D" },
+  { id: "theme-navy-pink" , color: "#FC5185" },
   { id: "theme-retro-maroon", color: "#641B2E" },
+  // { id: "theme-navy", color: "#818FB4" },
+  // { id: "theme-pink", color: "#E90064" },
 ];
 
 export default function Navbar() {

@@ -17,22 +17,22 @@
   --text-color: #BE5B50;
 }
 
-.theme-navy {
-  --primary-color: #818fb4;
-  --background-color: #363062;
-  --text-color: #f5e8c7;
-}
-
-.theme-pink {
-  --primary-color: #f564a9;
-  --background-color: #533b4d;
-  --text-color: #fae3c6;
+.theme-navy-pink {
+  --background-color: #364F6B;
+  --primary-color: #FC5185;
+  --text-color: #F5F5F5;
 }
 
 .theme-warm-purple {
   --primary-color: #d1512d;
   --background-color: #411530;
   --text-color: #f5c7a9;
+}
+
+.theme-grey-red {
+  --primary-color: #D72323;
+  --background-color: #303841;
+  --text-color: #EEEEEE;
 }
 
 
@@ -49,7 +49,8 @@ this is the previous root theme that i was using XD
   they are removed because they might have been a little not what i want T_T
   still they are not entirely not that bad XD
 */
-/* .theme-coffee {
+
+  /* .theme-coffee {
   --primary-color: #d5cea3;
   --background-color: #1a120b;
   --text-color: #e5e5cb;
@@ -61,6 +62,20 @@ this is the previous root theme that i was using XD
   --text-color: #ffcc00;
 } */
 
+/* .theme-navy {
+  --primary-color: #818fb4;
+  --background-color: #363062;
+  --text-color: #f5e8c7;
+}
+*/
+
+  /*
+.theme-pink {
+  --primary-color: #f564a9;
+  --background-color: #533b4d;
+  --text-color: #fae3c6;
+}
+*/
 
 body {
   background-color: var(--background-color);

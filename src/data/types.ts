@@ -23,3 +23,4 @@ export interface Game {
 }
 
 export type Recommendations = Song | Anime | Movie | Game;
+
