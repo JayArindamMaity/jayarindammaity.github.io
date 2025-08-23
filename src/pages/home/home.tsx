@@ -12,12 +12,12 @@ export default function Home() {
         <div className="home-content">
           I'm Jay Aridndam Maity a curious mind who loves building things —
           whether it's with code, circuits, or even a simple recipe in the
-          kitchen.
+          kitchen...
           <br /> <br />
           Professionally, I dive into programming with languages like C, C++,
           JavaScript, and Python, along with their ecosystems and frameworks.
           Whether it's creating web apps, tinkering with microcontrollers, or
-          solving logic problems, I'm always up for a challenge.
+          solving logic problems, I'm always up for a challenge...
           <br /> <br />
           When I'm not coding, you might find me:
           <ul>
@@ -32,8 +32,19 @@ export default function Home() {
             </li>
           </ul>
         </div>
-
-
+        
+        <div className="why-this">
+          <div className="content-heading">
+            Why This Website?
+          </div>
+          <div className="home-content">
+            Few of you may question why this website was made in the first place...
+            <br/> There is just so much stuff that might not be of use to anyone...
+            Although that is true, I made this website to share little things I own and enjoy... 
+            This website will have tons of things that you can give a try (who knows you might end up liking them) XD.
+            <br/>But if you still have more questions you can still reach out to me with that form below 😊...
+          </div>
+        </div>
 
         <div className="education">
           <div className="content-heading">My Education 🎓</div>
@@ -43,7 +54,7 @@ export default function Home() {
               <div>
                 Chitkara University — B.E. Computer Science & Engineering
               </div>
-              <div className="edu-score">7.5 CGPA</div>
+              <div className="edu-score">7.9 CGPA</div>
             </div>
           </div>
           <div className="education-entry">
