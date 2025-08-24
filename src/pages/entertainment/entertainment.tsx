@@ -27,7 +27,7 @@ export default function Entertainment() {
 
         <div className="e-fav-anime">
           <div className="e-heading">
-            My top favourite Anime as of Now ranked:
+            My top favourite Anime as of Now ranked
           </div>
           <div className="e-content">
             For those who know me it won't be a suprise that all of the top 5
@@ -65,7 +65,7 @@ export default function Entertainment() {
 
         <div className="e-songs">
           <div className="e-heading">
-            My top favourite songs at the moment ranked:
+            My top favourite songs at the moment ranked
           </div>
           <div className="e-content">
             Everyone has favourite songs and its no suprise that I have a few of
@@ -87,6 +87,22 @@ export default function Entertainment() {
               <li>Buried Alive - Avenged Sevenfold</li>
               <li>Symphonia IX - Grimes</li>
               <li>Bring me To Life - Evanescence</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="e-albums"> 
+          <div className="e-heading"> 
+            My favourite albums
+          </div>
+          <div className="e-content"> 
+            This section might be a little unexpected but as of now there are only 2 
+            albums that I like... There are only 2 because I found each of the song in
+            respective album to be good/entertaining...
+            <br/> Here they are:
+            <ul>
+              <li>Stella and The storm ep by: Stella and The Storm</li>
+              <li>MTV Unplugged in New York by: Nirvana </li>
             </ul>
           </div>
         </div>
