@@ -56,6 +56,13 @@ const git_links = [
     repodesc:
       "This is the nvim configuration that im currently using, You can also give this a try",
   },
+  {
+    reponame: "spoileriffic",
+    repolink: "https://github.com/JayArindam/Spoileriffic",
+    repodesc:
+      "There is nothing cool about this project. It actually is one of my early days project and it uses api's (TMBD) to provide you with movie reviews, trending movies/shows and more. If you are interested in using it go for it, it might be able to suggest you some good movie XD.",
+  },
 ];
 
-export { all_projects , git_links };
+export { all_projects, git_links };
+

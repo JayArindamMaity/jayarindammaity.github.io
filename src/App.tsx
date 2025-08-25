@@ -14,11 +14,9 @@ function App() {
   return (
     <Router>
       <div className="page-container">
-      // this is the component that renders navbar into the main page 
       <Navbar />
         
         <div className="main-content">
-          // these are all the required existing routes for my portfolio website XD  
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
