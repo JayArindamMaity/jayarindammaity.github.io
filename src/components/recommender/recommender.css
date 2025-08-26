@@ -14,7 +14,7 @@
 
 .rec-button {
   background-color: var(--background-color);
-  color: var(--primary-color);
+  color: var(--text-color);
   border: none;
   border-radius: 50px;
   margin-right: 12px;
@@ -31,7 +31,7 @@
   margin-top: 12px;
   background-color: var(--background-color);
   color: var(--text-color);
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--text-color);
   padding: 10px 20px;
   font-weight: bold;
   border-radius: 5px;
@@ -42,13 +42,13 @@
 
 .recommend-button:hover {
   background-color: var(--primary-color);
-  color: var(--background-color)   ;
+  color: var(--text-color)   ;
 }
 
 .hori-rule {
   border: 0;
   height: 1px;
-  background-color: var(--primary-color);
+  background-color: var(--text-color);
   border-radius: 5px;
 }
 
