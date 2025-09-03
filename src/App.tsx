@@ -9,6 +9,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Recipes from "./pages/recipes/recipes";
 import Footer from "./components/footer/footer";
 import RecipeDetail from "./pages/recipes/detail/detail";
+import Blogs from "./pages/blogs/blogs";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/learning" element={<Learning />} />
             <Route path="/entertainment" element={<Entertainment />} />
             <Route path="/recipes" element={<Recipes />} />
+            <Route path="/blogs" element={<Blogs />} />
             <Route path="/recipes/:name" element={<RecipeDetail />} />
           </Routes>
         </div>

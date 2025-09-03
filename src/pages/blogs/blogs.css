@@ -1,0 +1,6 @@
+.blogs-main {
+  margin-top: 15vh;
+  padding-bottom: 10vh;
+  color: var(--text-color);
+  font-family: "mycustomfont", sans-serif;
+}
