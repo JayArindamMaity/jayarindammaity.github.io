@@ -1,15 +1,16 @@
 .sidebar {
   position: fixed;
   left: 0;
-  top: 1vh;
+  top: 0vh;
   width: 18vw;
   height: 100vh;
   background-color: var(--background-color);
   padding: 1rem;
-  transform: translateX(-100%); /* hidden by default */
+  transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
   z-index: 2000;
 }
+
 
 .side-title {
   text-decoration: underline;
@@ -21,9 +22,17 @@
 }
 
 .side-main {
+  margin-top: 20px;
+  font-size: larger;
+  font-family: "mycustomfont", sans-serif;
   color: var(--text-color);
 }
 
+.side-clock {
+  position: absolute;
+  bottom: 5rem;       
+  left: 1rem;    
+}
 .sidebar.open {
   transform: translateX(0);
 }
@@ -33,8 +42,8 @@
   content: "";
   position: absolute;
   right: 0;   
-  top: -10vh;          
-  bottom: 0vh;       
+  top: 5vh;          
+  bottom: 5vh;       
   width: 2px;         
   background-color: var(--primary-color); 
 }

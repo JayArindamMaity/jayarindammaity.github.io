@@ -1,6 +1,6 @@
 .clock-time {
-    color: white;
+    color: var(--text-color);
 }
 .clock-date {
-    color: white;
+    color: var(--text-color);
 }

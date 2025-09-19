@@ -5,6 +5,7 @@ import {
   SlSocialInstagram,
   SlSocialTwitter,
 } from "react-icons/sl";
+// import { SiOnlyfans} from "react-icons/si";
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -109,6 +110,9 @@ export default function Contact() {
             <a href="#" target="blank">
               <SlSocialTwitter />
             </a>
+            {/* <a href="#" target="blank">
+              <SiOnlyfans />
+            </a> */}
           </div>
         </div>
       </div>

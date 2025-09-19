@@ -1,0 +1,5 @@
+.quote-main {
+    color: var(--text-color);
+    font-family: "mycustomfont", sans-serif;
+    font-size: larger;
+}
