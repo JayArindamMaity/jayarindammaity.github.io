@@ -1,0 +1,46 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 1vh;
+  width: 18vw;
+  height: 100vh;
+  background-color: var(--background-color);
+  padding: 1rem;
+  transform: translateX(-100%); /* hidden by default */
+  transition: transform 0.3s ease-in-out;
+  z-index: 2000;
+}
+
+.side-title {
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  font-family: "mycustomfont", sans-serif;
+  color: var(--primary-color);
+}
+
+.side-main {
+  color: var(--text-color);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* 🔹 Vertical border using a pseudo-element */
+.sidebar::after {
+  content: "";
+  position: absolute;
+  right: 0;   
+  top: -10vh;          
+  bottom: 0vh;       
+  width: 2px;         
+  background-color: var(--primary-color); 
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

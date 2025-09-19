@@ -9,8 +9,8 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 22vw;
+  margin-right: 22vw;
   padding: 20px;
 }
 

@@ -1,19 +1,24 @@
 import "./navbar.css";
-import { House, Award, AppWindow, BookA, Gamepad2, Pizza } from "lucide-react";
+import { House, Award, AppWindow, BookA, Gamepad2, Pizza, PanelLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const themes = [
   { id: "theme-default", color: "#8E1616" },
-  { id: "theme-grey-red" , color: "#D72323" },
+  { id: "theme-grey-red", color: "#D72323" },
   { id: "theme-warm-purple", color: "#D1512D" },
-  { id: "theme-navy-pink" , color: "#FC5185" },
+  { id: "theme-navy-pink", color: "#FC5185" },
   { id: "theme-retro-maroon", color: "#641B2E" },
   // { id: "theme-navy", color: "#818FB4" },
   // { id: "theme-pink", color: "#E90064" },
 ];
 
-export default function Navbar() {
+type NavbarProps = {
+  onToggleSidebar: () => void;
+};
+
+export default function Navbar({ onToggleSidebar }: NavbarProps) {
+
   const [open, setOpen] = useState(false);
   const [themeOpen, setThemeOpen] = useState(false);
 
@@ -39,6 +44,14 @@ export default function Navbar() {
           )}
 
           <ul>
+            <li>
+              <button
+                onClick={onToggleSidebar}
+                className="side-toggle-button"
+              >
+                <PanelLeft />
+              </button>
+            </li>
             <li>
               <Link to="/">
                 <span className="tooltip" data-tooltip="Home">

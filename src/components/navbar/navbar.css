@@ -47,6 +47,12 @@
   color: var(--primary-color);
 }
 
+.side-toggle-button {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border: none;
+}
+
 .tooltip {
   position: relative;
   display: inline-flex;
@@ -191,7 +197,7 @@
   }
 
   .theme-toggle {
-    top: 3vh;
+    top: 0vh;
     width: calc(33.333% - 1rem);
     display: flex;
     justify-content: center;

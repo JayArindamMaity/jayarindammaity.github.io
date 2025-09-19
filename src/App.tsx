@@ -10,12 +10,23 @@ import Recipes from "./pages/recipes/recipes";
 import Footer from "./components/footer/footer";
 import RecipeDetail from "./pages/recipes/detail/detail";
 import Blogs from "./pages/blogs/blogs";
+import Sidebar from "./components/sidebar/sidebar";
+import { useState } from "react";
 
 function App() {
+  const [isSidebarOpen , setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen((prev) => !prev);
+  };
+
   return (
     <Router>
+      
+      <Sidebar isOpen={isSidebarOpen} />
+
       <div className="page-container">
-      <Navbar />
+      <Navbar onToggleSidebar={toggleSidebar}/>      
         
         <div className="main-content">
           <Routes>

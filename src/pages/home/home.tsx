@@ -2,6 +2,7 @@ import "./home.css";
 import Contact from "../../components/contact/contact";
 import Mylearning from "../../components/mylearning/mylearning";
 import { learning_data } from "../../data/learning";
+
 export default function Home() {
 
   return (
