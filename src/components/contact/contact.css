@@ -18,6 +18,10 @@
   justify-content: space-between;
 }
 
+.contact-reasons {
+  color: var(--text-color);
+}
+
 .custom-toast {
   background-color:var(--background-color) !important;
   color: var(--text-color) !important;

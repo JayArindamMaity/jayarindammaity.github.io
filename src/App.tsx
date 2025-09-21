@@ -12,6 +12,7 @@ import RecipeDetail from "./pages/recipes/detail/detail";
 import Blogs from "./pages/blogs/blogs";
 import Sidebar from "./components/sidebar/sidebar";
 import { useState } from "react";
+import Fireflies from "./components/fireflies/fireflies";
 
 function App() {
   const [isSidebarOpen , setIsSidebarOpen] = useState(false);
@@ -23,6 +24,8 @@ function App() {
   return (
     <Router>
       
+      <Fireflies spawnRate={20} />
+
       <Sidebar isOpen={isSidebarOpen} />
 
       <div className="page-container">

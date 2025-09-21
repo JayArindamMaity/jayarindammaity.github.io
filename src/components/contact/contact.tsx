@@ -89,7 +89,7 @@ export default function Contact() {
         <div className="contact-eles">
           <div className="contact-words">
             If you chose to contact me, here are few things you can talk about:
-            <ul>
+            <ul className="contact-reasons">
               <li>Your project idea and datails</li>
               <li>Assistance with your current project</li>
               <li>More information on technical things</li>

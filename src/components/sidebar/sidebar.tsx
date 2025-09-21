@@ -17,9 +17,9 @@ export default function Sidebar({ isOpen }: SidebarProps) {
             <div className="side-sections">
               <div className="side-title-small">Recommended Sections To Explore</div>
               <ul>
-                <li><a href="" className="side-anch">Projects</a></li>
-                <li><a href="" className="side-anch">Learning</a></li>
-                <li><a href="" className="side-anch">Entertainment</a></li>
+                <li><a href="#projects" className="side-anch">Projects</a></li>
+                <li><a href="#learning" className="side-anch">Learning</a></li>
+                <li><a href="#entertainment" className="side-anch">Entertainment</a></li>
               </ul>
             </div>
 

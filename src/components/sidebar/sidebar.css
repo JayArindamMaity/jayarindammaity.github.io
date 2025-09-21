@@ -4,7 +4,7 @@
   top: 0vh;
   width: 18vw;
   height: 100vh;
-  background-color: var(--background-color);
+  background-color: #00000000;
   padding: 1rem;
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
