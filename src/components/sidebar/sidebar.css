@@ -11,7 +11,6 @@
   z-index: 2000;
 }
 
-
 .side-title {
   text-decoration: underline;
   margin-top: 40px;
@@ -21,10 +20,26 @@
   color: var(--primary-color);
 }
 
+.side-title-small {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  font-family: "mycustomfont", sans-serif;
+  color: var(--primary-color);
+}
+
 .side-main {
   margin-top: 20px;
   font-size: larger;
   font-family: "mycustomfont", sans-serif;
+  color: var(--text-color);
+}
+
+.side-anch {
+  color: var(--text-color);
+}
+
+.side-hr  {
   color: var(--text-color);
 }
 
