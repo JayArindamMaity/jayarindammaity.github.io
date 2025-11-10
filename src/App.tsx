@@ -1,18 +1,19 @@
 import "./App.css";
-import Navbar from "./components/navbar/navbar";
-import Achievements from "./pages/achievements/achievements";
-import Learning from "./pages/learning/learning";
-import Home from "./pages/home/home";
-import Projects from "./pages/projects/projects";
-import Entertainment from "./pages/entertainment/entertainment";
+import { useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/home/home";
+import Blogs from "./pages/blogs/blogs";
 import Recipes from "./pages/recipes/recipes";
 import Footer from "./components/footer/footer";
-import RecipeDetail from "./pages/recipes/detail/detail";
-import Blogs from "./pages/blogs/blogs";
+import Navbar from "./components/navbar/navbar";
+import Learning from "./pages/learning/learning";
+import Projects from "./pages/projects/projects";
 import Sidebar from "./components/sidebar/sidebar";
-import { useState } from "react";
+import RecipeDetail from "./pages/recipes/detail/detail";
 import Fireflies from "./components/fireflies/fireflies";
+import Achievements from "./pages/achievements/achievements";
+import Entertainment from "./pages/entertainment/entertainment";
 
 function App() {
   const [isSidebarOpen , setIsSidebarOpen] = useState(false);
