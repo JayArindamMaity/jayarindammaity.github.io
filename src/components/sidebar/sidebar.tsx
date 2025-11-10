@@ -3,7 +3,6 @@ import "./sidebar.css";
 import Quotes from "../quotes/quotes";
 import { GiMagicAxe } from "react-icons/gi";
 
-// Update the props interface to accept the new state and function
 interface SidebarProps {
   isOpen: boolean;
   dispflies: boolean;
@@ -13,7 +12,6 @@ interface SidebarProps {
 // Destructure the new props
 export default function Sidebar({
   isOpen,
-  dispflies,
   onToggleFlies,
 }: SidebarProps) {
   return (
@@ -46,11 +44,9 @@ export default function Sidebar({
           </ul>
         </div>
 
-        {/* This div now contains the Clock and the new toggle button */}
         <div className="side-clock">
           <Clock />
           <button onClick={onToggleFlies} className="firefly-toggle">
-            {/* {dispflies ? "Hide Flies" : "Show Flies"} */}
             <GiMagicAxe />
           </button>
         </div>
