@@ -16,7 +16,12 @@ import Achievements from "./pages/achievements/achievements";
 import Entertainment from "./pages/entertainment/entertainment";
 
 function App() {
-  const [isSidebarOpen , setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [dispflies, setdispflies] = useState(true);
+
+  const toggleFlies = () => {
+    setdispflies((prev) => !prev);
+  };
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
@@ -25,13 +30,19 @@ function App() {
   return (
     <Router>
       
-      <Fireflies spawnRate={20} />
+      {/* Conditionally render Fireflies based on state */}
+      {dispflies && <Fireflies spawnRate={20} />}
 
-      <Sidebar isOpen={isSidebarOpen} />
+      {/* Pass the state and toggle function to the Sidebar */}
+      <Sidebar
+        isOpen={isSidebarOpen}
+        dispflies={dispflies}
+        onToggleFlies={toggleFlies}
+      />
 
       <div className="page-container">
-      <Navbar onToggleSidebar={toggleSidebar}/>      
-        
+        <Navbar onToggleSidebar={toggleSidebar} />
+
         <div className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />

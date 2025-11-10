@@ -2,10 +2,11 @@ import React, { useEffect, useRef } from "react";
 import "./fireflies.css";
 
 interface FirefliesProps {
-  spawnRate?: number; // how many per second
+  spawnRate?: number;
+  dispflies?: boolean;
 }
 
-const Fireflies: React.FC<FirefliesProps> = ({ spawnRate = 2 }) => {
+const Fireflies: React.FC<FirefliesProps> = ({ spawnRate = 2 , dispflies = true }) => {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -35,7 +36,10 @@ const Fireflies: React.FC<FirefliesProps> = ({ spawnRate = 2 }) => {
     return () => clearInterval(interval);
   }, [spawnRate]);
 
-  return <div className="fireflies-container" ref={containerRef}></div>;
+  if (dispflies) {
+    return <div className="fireflies-container" ref={containerRef}></div>;
+  }
+  
 };
 
 export default Fireflies;

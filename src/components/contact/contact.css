@@ -1,6 +1,7 @@
 .contact-main {
   color: var(--primary-color);
   font-family: "mycustomfont", sans-serif;
+  background-color: --var(--background-color);
 }
 
 .contact-heading {
@@ -23,7 +24,7 @@
 }
 
 .custom-toast {
-  background-color:var(--background-color) !important;
+  background-color: var(--background-color) !important;
   color: var(--text-color) !important;
   font-family: "mycustomfont", sans-serif !important;
   border-radius: 5px;

@@ -41,7 +41,7 @@ const quotes = [
   },
   {
     id: 11,
-    quote: "What we think, we become."
+    quote: "What we think, it is what we become."
   },
   {
     id: 12,

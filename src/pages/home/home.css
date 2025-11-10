@@ -2,12 +2,14 @@
   margin-top: 15vh;
   padding-bottom: 10vh;
   color: var(--text-color);
+  background-color: --var(--background-color);
 }
 
 .home-content {
   margin-top: 20px;
   font-size: larger;
   font-family: "mycustomfont", sans-serif;
+  background-color: --var(--background-color);
 }
 
 .content-heading {
