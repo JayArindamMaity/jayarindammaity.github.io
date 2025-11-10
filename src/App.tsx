@@ -16,7 +16,7 @@ import Achievements from "./pages/achievements/achievements";
 import Entertainment from "./pages/entertainment/entertainment";
 
 function App() {
-  const [isSidebarOpen , setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen , setIsSidebarOpen] = useState(true);
 
   const toggleSidebar = () => {
     setIsSidebarOpen((prev) => !prev);
