@@ -154,7 +154,7 @@ const GameOfLife: React.FC = () => {
       className="w-full relative overflow-hidden transition-colors duration-300 gameoflife"
       style={{ 
         backgroundColor: 'var(--background-color)',
-        color: 'var(--primary-color)' 
+        color: 'var(--text-color)' 
       }}
     >
       <canvas 
