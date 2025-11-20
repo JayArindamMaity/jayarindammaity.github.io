@@ -39,48 +39,52 @@
   color: var(--text-color);
 }
 
-.side-hr  {
+.side-hr {
   color: var(--text-color);
 }
 
 .side-clock {
   position: fixed;
-  margin-top: 35vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 3vw;
   padding: 0 10px;
+  bottom: 0;
+  margin-bottom: 5vh;
 }
+
 .sidebar.open {
   transform: translateX(0);
 }
 
 .firefly-toggle {
-  background-color: #00000000; /* Dark background */
+  background-color: #00000000;
+  /* Dark background */
   color: var(--primary-color);
   border: 1px solid #00000000;
   padding: 4px 8px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 2rem;
-  margin-left: 10px; /* Space between clock and button */
+  margin-left: 10px;
+  /* Space between clock and button */
   transition: color 0.5s ease-in-out;
 }
 
 .firefly-toggle:hover {
-
   color: var(--text-color);
 }
 
 .sidebar::after {
   content: "";
   position: absolute;
-  right: 0;   
-  top: 5vh;          
-  bottom: 5vh;       
-  width: 2px;         
-  background-color: var(--primary-color); 
+  right: 0;
+  top: 5vh;
+  bottom: 5vh;
+  width: 2px;
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 768px) {

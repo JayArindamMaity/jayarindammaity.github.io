@@ -2,13 +2,14 @@ import "./home.css";
 import { learning_data } from "../../data/learning";
 import Contact from "../../components/contact/contact";
 import Mylearning from "../../components/mylearning/mylearning";
+import GameOfLife from "../../components/gameoflife/gameoflife";
 
 export default function Home() {
 
   return (
     <>
       <div className="home-main">
-
+        <GameOfLife />
         <div className="content-heading">Hello!</div>
         <div className="home-content">
           I'm Jay Aridndam Maity a curious mind who loves building things —
