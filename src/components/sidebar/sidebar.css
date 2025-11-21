@@ -1,83 +1,25 @@
-.sidebar {
+/* Shared styles for both panels */
+.sidebar-panel {
   position: fixed;
-  left: 0;
   top: 0vh;
   width: 18vw;
   height: 100vh;
   background-color: #00000000;
   padding: 1rem;
-  transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
   z-index: 2000;
-}
-
-.side-title {
-  text-decoration: underline;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  font-size: xx-large;
-  font-family: "mycustomfont", sans-serif;
-  color: var(--primary-color);
-}
-
-.side-title-small {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: x-large;
-  font-family: "mycustomfont", sans-serif;
-  color: var(--primary-color);
-}
-
-.side-main {
-  margin-top: 20px;
-  font-size: larger;
-  font-family: "mycustomfont", sans-serif;
-  color: var(--text-color);
-}
-
-.side-anch {
-  color: var(--text-color);
-}
-
-.side-hr {
-  color: var(--text-color);
-}
-
-.side-clock {
-  position: fixed;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 3vw;
-  padding: 0 10px;
-  bottom: 0;
-  margin-bottom: 5vh;
+  flex-direction: column;
+  font-family: "mycustomfont", sans-serif;
 }
 
-.sidebar.open {
-  transform: translateX(0);
+.sidebar-panel.left {
+  left: 0;
+  transform: translateX(-100%);
+  text-align: left;
 }
 
-.firefly-toggle {
-  background-color: #00000000;
-  /* Dark background */
-  color: var(--primary-color);
-  border: 1px solid #00000000;
-  padding: 4px 8px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 2rem;
-  margin-left: 10px;
-  /* Space between clock and button */
-  transition: color 0.5s ease-in-out;
-}
-
-.firefly-toggle:hover {
-  color: var(--text-color);
-}
-
-.sidebar::after {
+.sidebar-panel.left::after {
   content: "";
   position: absolute;
   right: 0;
@@ -87,8 +29,114 @@
   background-color: var(--primary-color);
 }
 
+.sidebar-panel.right {
+  right: 0;
+  transform: translateX(100%);
+  text-align: right;
+}
+
+.sidebar-panel.right::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5vh;
+  bottom: 5vh;
+  width: 2px;
+  background-color: var(--primary-color);
+}
+
+
+.sidebar-panel.open {
+  transform: translateX(0);
+}
+
+.side-title {
+  font-family: "mycustomfont", sans-serif;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 5vh;
+  color: var(--primary-color);
+}
+
+.side-title-small {
+  margin-top: 20px;
+  font-size: 4vh;
+  font-family: "mycustomfont", sans-serif;
+  color: var(--primary-color);
+}
+
+.right-side-title-small {
+  margin-top: 15vh;
+  font-size: 4vh;
+  font-family: "mycustomfont", sans-serif;
+  color: var(--primary-color);
+}
+
+.side-main {
+  margin-top: 20px;
+  font-size: 2.8vh;
+  font-family: "mycustomfont", sans-serif;
+  color: var(--text-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-anch {
+  color: var(--text-color);
+}
+
+.button-style {
+  background-color: var(--background-color);
+  font-family: "mycustomfont", sans-serif;
+  color: var(--text-color);
+  border: none;
+  text-decoration: underline;
+  font-size: 2.8vh;
+}
+
+.side-sections ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-sections li {
+  margin-bottom: 10px;
+}
+
+.side-hr {
+  color: var(--primary-color);
+  width: 100%;
+}
+
+.side-clock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: auto;
+  margin-bottom: 5vh;
+}
+
+.firefly-toggle {
+  background-color: #00000000;
+  color: var(--primary-color);
+  border: 1px solid #00000000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: color 0.5s ease-in-out;
+}
+
+.firefly-toggle:hover {
+  color: var(--text-color);
+}
+
 @media (max-width: 768px) {
-  .sidebar {
+  .sidebar-panel {
     display: none;
   }
 }

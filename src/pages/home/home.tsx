@@ -9,8 +9,21 @@ export default function Home() {
   return (
     <>
       <div className="home-main">
-        <GameOfLife />
-        <div className="content-heading">Hello!</div>
+
+        <div className="home-top-section" id="game-of-life">
+          {/* The Text Overlay */}
+          <div className="hero-text-overlay">
+            <h1>
+              The Code Smith's <br />
+              <span className="highlight">Forge</span>
+            </h1>
+          </div>
+
+          <GameOfLife />
+
+        </div>
+
+        <div className="first-content-heading" id="introduction">Who Am I?</div>
         <div className="home-content">
           I'm Jay Aridndam Maity a curious mind who loves building things —
           whether it's with code, circuits, or even a simple recipe in the
@@ -35,7 +48,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="why-this">
+        <div className="why-this" id="why-this-website">
           <div className="content-heading">
             Why This Website?
           </div>
@@ -48,7 +61,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="education">
+        <div className="education" id="my-education">
           <div className="content-heading">My Education 🎓</div>
           <div className="education-entry">
             <div className="edu-level">College</div>
@@ -77,7 +90,7 @@ export default function Home() {
 
         <Mylearning items={learning_data} />
 
-        <div className="my-working">
+        <div className="my-working" id="what-i-am-doing">
           <div className="content-heading">What I'm doing:</div>
           <div className="home-content">
             If you are curious about what i'm doing <br /> here it is (P.S.

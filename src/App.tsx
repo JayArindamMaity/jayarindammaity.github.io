@@ -16,7 +16,7 @@ import Achievements from "./pages/achievements/achievements";
 import Entertainment from "./pages/entertainment/entertainment";
 
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [dispflies, setdispflies] = useState(true);
 
   const toggleFlies = () => {
